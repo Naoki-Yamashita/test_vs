@@ -1,1 +1,0 @@
-IMAGE ID:naoki-yamashita/test_v2:main 
