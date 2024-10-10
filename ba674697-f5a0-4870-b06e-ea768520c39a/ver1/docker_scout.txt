@@ -266,60 +266,6 @@ pkg:deb/debian/openjpeg2@2.5.0-2?os_distro=bookworm&os_name=debian&os_version=12
       Fixed version  : not fixed  
     
 
-   0C     0H     0M    10L  tiff 4.5.0-6+deb12u1
-pkg:deb/debian/tiff@4.5.0-6%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2024-6716
-      https://scout.docker.com/v/CVE-2024-6716?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2023-6228
-      https://scout.docker.com/v/CVE-2023-6228?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2023-3164
-      https://scout.docker.com/v/CVE-2023-3164?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2023-1916
-      https://scout.docker.com/v/CVE-2023-1916?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2022-1210
-      https://scout.docker.com/v/CVE-2022-1210?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2018-10126
-      https://scout.docker.com/v/CVE-2018-10126?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2017-9117
-      https://scout.docker.com/v/CVE-2017-9117?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2017-5563
-      https://scout.docker.com/v/CVE-2017-5563?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2017-17973
-      https://scout.docker.com/v/CVE-2017-17973?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-    ✗ LOW CVE-2017-16232
-      https://scout.docker.com/v/CVE-2017-16232?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
-      Affected range : >=4.5.0-6+deb12u1  
-      Fixed version  : not fixed          
-    
-
    0C     0H     0M    10L  bluez 5.66-1+deb12u2
 pkg:deb/debian/bluez@5.66-1%2Bdeb12u2?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -372,6 +318,60 @@ pkg:deb/debian/bluez@5.66-1%2Bdeb12u2?os_distro=bookworm&os_name=debian&os_versi
       https://scout.docker.com/v/CVE-2016-9797?s=debian&n=bluez&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D5.66-1%2Bdeb12u2
       Affected range : >=5.66-1+deb12u2  
       Fixed version  : not fixed         
+    
+
+   0C     0H     0M    10L  tiff 4.5.0-6+deb12u1
+pkg:deb/debian/tiff@4.5.0-6%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2024-6716
+      https://scout.docker.com/v/CVE-2024-6716?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2023-6228
+      https://scout.docker.com/v/CVE-2023-6228?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2023-3164
+      https://scout.docker.com/v/CVE-2023-3164?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2023-1916
+      https://scout.docker.com/v/CVE-2023-1916?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2022-1210
+      https://scout.docker.com/v/CVE-2022-1210?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2018-10126
+      https://scout.docker.com/v/CVE-2018-10126?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2017-9117
+      https://scout.docker.com/v/CVE-2017-9117?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2017-5563
+      https://scout.docker.com/v/CVE-2017-5563?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2017-17973
+      https://scout.docker.com/v/CVE-2017-17973?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
+    
+    ✗ LOW CVE-2017-16232
+      https://scout.docker.com/v/CVE-2017-16232?s=debian&n=tiff&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D4.5.0-6%2Bdeb12u1
+      Affected range : >=4.5.0-6+deb12u1  
+      Fixed version  : not fixed          
     
 
    0C     0H     0M     9L  imagemagick 8:6.9.11.60+dfsg-1.6+deb12u2
@@ -545,30 +545,6 @@ pkg:deb/debian/binutils@2.40-2?os_distro=bookworm&os_name=debian&os_version=12
       Fixed version  : not fixed  
     
 
-   0C     0H     0M     4L  systemd 252.30-1~deb12u2
-pkg:deb/debian/systemd@252.30-1~deb12u2?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2023-31439
-      https://scout.docker.com/v/CVE-2023-31439?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
-      Affected range : >=252.30-1~deb12u2  
-      Fixed version  : not fixed           
-    
-    ✗ LOW CVE-2023-31438
-      https://scout.docker.com/v/CVE-2023-31438?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
-      Affected range : >=252.30-1~deb12u2  
-      Fixed version  : not fixed           
-    
-    ✗ LOW CVE-2023-31437
-      https://scout.docker.com/v/CVE-2023-31437?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
-      Affected range : >=252.30-1~deb12u2  
-      Fixed version  : not fixed           
-    
-    ✗ LOW CVE-2013-4392
-      https://scout.docker.com/v/CVE-2013-4392?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
-      Affected range : >=252.30-1~deb12u2  
-      Fixed version  : not fixed           
-    
-
    0C     0H     0M     4L  patch 2.7.6-7
 pkg:deb/debian/patch@2.7.6-7?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -593,6 +569,30 @@ pkg:deb/debian/patch@2.7.6-7?os_distro=bookworm&os_name=debian&os_version=12
       Fixed version  : not fixed  
     
 
+   0C     0H     0M     4L  systemd 252.30-1~deb12u2
+pkg:deb/debian/systemd@252.30-1~deb12u2?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2023-31439
+      https://scout.docker.com/v/CVE-2023-31439?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
+      Affected range : >=252.30-1~deb12u2  
+      Fixed version  : not fixed           
+    
+    ✗ LOW CVE-2023-31438
+      https://scout.docker.com/v/CVE-2023-31438?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
+      Affected range : >=252.30-1~deb12u2  
+      Fixed version  : not fixed           
+    
+    ✗ LOW CVE-2023-31437
+      https://scout.docker.com/v/CVE-2023-31437?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
+      Affected range : >=252.30-1~deb12u2  
+      Fixed version  : not fixed           
+    
+    ✗ LOW CVE-2013-4392
+      https://scout.docker.com/v/CVE-2013-4392?s=debian&n=systemd&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D252.30-1%7Edeb12u2
+      Affected range : >=252.30-1~deb12u2  
+      Fixed version  : not fixed           
+    
+
    0C     0H     0M     4L  openldap 2.5.13+dfsg-5
 pkg:deb/debian/openldap@2.5.13%2Bdfsg-5?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -615,48 +615,6 @@ pkg:deb/debian/openldap@2.5.13%2Bdfsg-5?os_distro=bookworm&os_name=debian&os_ver
       https://scout.docker.com/v/CVE-2015-3276?s=debian&n=openldap&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.5.13%2Bdfsg-5
       Affected range : >=2.5.13+dfsg-5  
       Fixed version  : not fixed        
-    
-
-   0C     0H     0M     2L  libheif 1.15.1-1
-pkg:deb/debian/libheif@1.15.1-1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2024-25269
-      https://scout.docker.com/v/CVE-2024-25269?s=debian&n=libheif&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.15.1-1
-      Affected range : >=1.15.1-1  
-      Fixed version  : not fixed   
-    
-    ✗ LOW CVE-2023-49463
-      https://scout.docker.com/v/CVE-2023-49463?s=debian&n=libheif&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.15.1-1
-      Affected range : >=1.15.1-1  
-      Fixed version  : not fixed   
-    
-
-   0C     0H     0M     2L  perl 5.36.0-7+deb12u1
-pkg:deb/debian/perl@5.36.0-7%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2023-31486
-      https://scout.docker.com/v/CVE-2023-31486?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D5.36.0-7%2Bdeb12u1
-      Affected range : >=5.36.0-7+deb12u1  
-      Fixed version  : not fixed           
-    
-    ✗ LOW CVE-2011-4116
-      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D5.36.0-7%2Bdeb12u1
-      Affected range : >=5.36.0-7+deb12u1  
-      Fixed version  : not fixed           
-    
-
-   0C     0H     0M     2L  m4 1.4.19-3
-pkg:deb/debian/m4@1.4.19-3?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2008-1688
-      https://scout.docker.com/v/CVE-2008-1688?s=debian&n=m4&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.4.19-3
-      Affected range : >=1.4.19-3  
-      Fixed version  : not fixed   
-    
-    ✗ LOW CVE-2008-1687
-      https://scout.docker.com/v/CVE-2008-1687?s=debian&n=m4&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.4.19-3
-      Affected range : >=1.4.19-3  
-      Fixed version  : not fixed   
     
 
    0C     0H     0M     2L  expat 2.5.0-1+deb12u1
@@ -701,6 +659,34 @@ pkg:deb/debian/shadow@1:4.13%2Bdfsg1-1?os_distro=bookworm&os_name=debian&os_vers
       Fixed version  : not fixed         
     
 
+   0C     0H     0M     2L  perl 5.36.0-7+deb12u1
+pkg:deb/debian/perl@5.36.0-7%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2023-31486
+      https://scout.docker.com/v/CVE-2023-31486?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D5.36.0-7%2Bdeb12u1
+      Affected range : >=5.36.0-7+deb12u1  
+      Fixed version  : not fixed           
+    
+    ✗ LOW CVE-2011-4116
+      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D5.36.0-7%2Bdeb12u1
+      Affected range : >=5.36.0-7+deb12u1  
+      Fixed version  : not fixed           
+    
+
+   0C     0H     0M     2L  libheif 1.15.1-1
+pkg:deb/debian/libheif@1.15.1-1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2024-25269
+      https://scout.docker.com/v/CVE-2024-25269?s=debian&n=libheif&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.15.1-1
+      Affected range : >=1.15.1-1  
+      Fixed version  : not fixed   
+    
+    ✗ LOW CVE-2023-49463
+      https://scout.docker.com/v/CVE-2023-49463?s=debian&n=libheif&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.15.1-1
+      Affected range : >=1.15.1-1  
+      Fixed version  : not fixed   
+    
+
    0C     0H     0M     2L  git 1:2.39.5-0+deb12u1
 pkg:deb/debian/git@1:2.39.5-0%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -715,121 +701,27 @@ pkg:deb/debian/git@1:2.39.5-0%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_ver
       Fixed version  : not fixed       
     
 
-   0C     0H     0M     1L  krb5 1.20.1-2+deb12u2
-pkg:deb/debian/krb5@1.20.1-2%2Bdeb12u2?os_distro=bookworm&os_name=debian&os_version=12
+   0C     0H     0M     2L  m4 1.4.19-3
+pkg:deb/debian/m4@1.4.19-3?os_distro=bookworm&os_name=debian&os_version=12
 
-    ✗ LOW CVE-2018-5709
-      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.20.1-2%2Bdeb12u2
-      Affected range : >=1.20.1-2+deb12u2  
-      Fixed version  : not fixed           
+    ✗ LOW CVE-2008-1688
+      https://scout.docker.com/v/CVE-2008-1688?s=debian&n=m4&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.4.19-3
+      Affected range : >=1.4.19-3  
+      Fixed version  : not fixed   
     
-
-   0C     0H     0M     1L  util-linux 2.38.1-5+deb12u1
-pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2022-0563
-      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.38.1-5%2Bdeb12u1
-      Affected range : >=2.38.1-5+deb12u1  
-      Fixed version  : not fixed           
-    
-
-   0C     0H     0M     1L  openexr 3.1.5-5
-pkg:deb/debian/openexr@3.1.5-5?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2017-14988
-      https://scout.docker.com/v/CVE-2017-14988?s=debian&n=openexr&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.1.5-5
-      Affected range : >=3.1.5-5  
-      Fixed version  : not fixed  
-    
-
-   0C     0H     0M     1L  tcl8.6 8.6.13+dfsg-2
-pkg:deb/debian/tcl8.6@8.6.13%2Bdfsg-2?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2021-35331
-      https://scout.docker.com/v/CVE-2021-35331?s=debian&n=tcl8.6&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D8.6.13%2Bdfsg-2
-      Affected range : >=8.6.13+dfsg-2  
-      Fixed version  : not fixed        
-    
-
-   0C     0H     0M     1L  jbigkit 2.1-6.1
-pkg:deb/debian/jbigkit@2.1-6.1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2017-9937
-      https://scout.docker.com/v/CVE-2017-9937?s=debian&n=jbigkit&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.1-6.1
-      Affected range : >=2.1-6.1  
-      Fixed version  : not fixed  
-    
-
-   0C     0H     0M     1L  libpng1.6 1.6.39-2
-pkg:deb/debian/libpng1.6@1.6.39-2?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2021-4214
-      https://scout.docker.com/v/CVE-2021-4214?s=debian&n=libpng1.6&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.6.39-2
-      Affected range : >=1.6.39-2  
+    ✗ LOW CVE-2008-1687
+      https://scout.docker.com/v/CVE-2008-1687?s=debian&n=m4&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.4.19-3
+      Affected range : >=1.4.19-3  
       Fixed version  : not fixed   
     
 
-   0C     0H     0M     1L  gcc-12 12.2.0-14
-pkg:deb/debian/gcc-12@12.2.0-14?os_distro=bookworm&os_name=debian&os_version=12
+   0C     0H     0M     1L  gnutls28 3.7.9-2+deb12u3
+pkg:deb/debian/gnutls28@3.7.9-2%2Bdeb12u3?os_distro=bookworm&os_name=debian&os_version=12
 
-    ✗ LOW CVE-2022-27943
-      https://scout.docker.com/v/CVE-2022-27943?s=debian&n=gcc-12&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D12.2.0-14
-      Affected range : >=12.2.0-14  
-      Fixed version  : not fixed    
-    
-
-   0C     0H     0M     1L  libxml2 2.9.14+dfsg-1.3~deb12u1
-pkg:deb/debian/libxml2@2.9.14%2Bdfsg-1.3~deb12u1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2024-34459
-      https://scout.docker.com/v/CVE-2024-34459?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.9.14%2Bdfsg-1.3%7Edeb12u1
-      Affected range : >=2.9.14+dfsg-1.3~deb12u1  
-      Fixed version  : not fixed                  
-    
-
-   0C     0H     0M     1L  sqlite3 3.40.1-2
-pkg:deb/debian/sqlite3@3.40.1-2?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2021-45346
-      https://scout.docker.com/v/CVE-2021-45346?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.40.1-2
-      Affected range : >=3.40.1-2  
-      Fixed version  : not fixed   
-    
-
-   0C     0H     0M     1L  libxslt 1.1.35-1
-pkg:deb/debian/libxslt@1.1.35-1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2015-9019
-      https://scout.docker.com/v/CVE-2015-9019?s=debian&n=libxslt&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.1.35-1
-      Affected range : >=1.1.35-1  
-      Fixed version  : not fixed   
-    
-
-   0C     0H     0M     1L  pixman 0.42.2-1
-pkg:deb/debian/pixman@0.42.2-1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2023-37769
-      https://scout.docker.com/v/CVE-2023-37769?s=debian&n=pixman&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D0.42.2-1
-      Affected range : >=0.42.2-1  
-      Fixed version  : not fixed   
-    
-
-   0C     0H     0M     1L  gnupg2 2.2.40-1.1
-pkg:deb/debian/gnupg2@2.2.40-1.1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2022-3219
-      https://scout.docker.com/v/CVE-2022-3219?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.2.40-1.1
-      Affected range : >=2.2.40-1.1  
-      Fixed version  : not fixed     
-    
-
-   0C     0H     0M     1L  coreutils 9.1-1
-pkg:deb/debian/coreutils@9.1-1?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2017-18018
-      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D9.1-1
-      Affected range : >=9.1-1    
-      Fixed version  : not fixed  
+    ✗ LOW CVE-2011-3389
+      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.7.9-2%2Bdeb12u3
+      Affected range : >=3.7.9-2+deb12u3  
+      Fixed version  : not fixed          
     
 
    0C     0H     0M     1L  libgcrypt20 1.10.1-3
@@ -841,13 +733,40 @@ pkg:deb/debian/libgcrypt20@1.10.1-3?os_distro=bookworm&os_name=debian&os_version
       Fixed version  : not fixed   
     
 
-   0C     0H     0M     1L  gnutls28 3.7.9-2+deb12u3
-pkg:deb/debian/gnutls28@3.7.9-2%2Bdeb12u3?os_distro=bookworm&os_name=debian&os_version=12
+   0C     0H     0M     1L  tcl8.6 8.6.13+dfsg-2
+pkg:deb/debian/tcl8.6@8.6.13%2Bdfsg-2?os_distro=bookworm&os_name=debian&os_version=12
 
-    ✗ LOW CVE-2011-3389
-      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.7.9-2%2Bdeb12u3
-      Affected range : >=3.7.9-2+deb12u3  
-      Fixed version  : not fixed          
+    ✗ LOW CVE-2021-35331
+      https://scout.docker.com/v/CVE-2021-35331?s=debian&n=tcl8.6&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D8.6.13%2Bdfsg-2
+      Affected range : >=8.6.13+dfsg-2  
+      Fixed version  : not fixed        
+    
+
+   0C     0H     0M     1L  libxslt 1.1.35-1
+pkg:deb/debian/libxslt@1.1.35-1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2015-9019
+      https://scout.docker.com/v/CVE-2015-9019?s=debian&n=libxslt&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.1.35-1
+      Affected range : >=1.1.35-1  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  glib2.0 2.74.6-2+deb12u3
+pkg:deb/debian/glib2.0@2.74.6-2%2Bdeb12u3?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2012-0039
+      https://scout.docker.com/v/CVE-2012-0039?s=debian&n=glib2.0&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.74.6-2%2Bdeb12u3
+      Affected range : >=2.74.6-2+deb12u3  
+      Fixed version  : not fixed           
+    
+
+   0C     0H     0M     1L  openssl 3.0.14-1~deb12u2
+pkg:deb/debian/openssl@3.0.14-1~deb12u2?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2010-0928
+      https://scout.docker.com/v/CVE-2010-0928?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.0.11-1%7Edeb12u2
+      Affected range : >=3.0.11-1~deb12u2  
+      Fixed version  : not fixed           
     
 
    0C     0H     0M     1L  apt 2.6.1
@@ -868,15 +787,6 @@ pkg:deb/debian/unzip@6.0-28?os_distro=bookworm&os_name=debian&os_version=12
       Fixed version  : not fixed  
     
 
-   0C     0H     0M     1L  glib2.0 2.74.6-2+deb12u3
-pkg:deb/debian/glib2.0@2.74.6-2%2Bdeb12u3?os_distro=bookworm&os_name=debian&os_version=12
-
-    ✗ LOW CVE-2012-0039
-      https://scout.docker.com/v/CVE-2012-0039?s=debian&n=glib2.0&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.74.6-2%2Bdeb12u3
-      Affected range : >=2.74.6-2+deb12u3  
-      Fixed version  : not fixed           
-    
-
    0C     0H     0M     1L  jansson 2.14-2
 pkg:deb/debian/jansson@2.14-2?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -886,12 +796,39 @@ pkg:deb/debian/jansson@2.14-2?os_distro=bookworm&os_name=debian&os_version=12
       Fixed version  : not fixed  
     
 
-   0C     0H     0M     1L  openssl 3.0.14-1~deb12u2
-pkg:deb/debian/openssl@3.0.14-1~deb12u2?os_distro=bookworm&os_name=debian&os_version=12
+   0C     0H     0M     1L  jbigkit 2.1-6.1
+pkg:deb/debian/jbigkit@2.1-6.1?os_distro=bookworm&os_name=debian&os_version=12
 
-    ✗ LOW CVE-2010-0928
-      https://scout.docker.com/v/CVE-2010-0928?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.0.11-1%7Edeb12u2
-      Affected range : >=3.0.11-1~deb12u2  
+    ✗ LOW CVE-2017-9937
+      https://scout.docker.com/v/CVE-2017-9937?s=debian&n=jbigkit&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.1-6.1
+      Affected range : >=2.1-6.1  
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  util-linux 2.38.1-5+deb12u1
+pkg:deb/debian/util-linux@2.38.1-5%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2022-0563
+      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.38.1-5%2Bdeb12u1
+      Affected range : >=2.38.1-5+deb12u1  
+      Fixed version  : not fixed           
+    
+
+   0C     0H     0M     1L  coreutils 9.1-1
+pkg:deb/debian/coreutils@9.1-1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2017-18018
+      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D9.1-1
+      Affected range : >=9.1-1    
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  krb5 1.20.1-2+deb12u2
+pkg:deb/debian/krb5@1.20.1-2%2Bdeb12u2?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2018-5709
+      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.20.1-2%2Bdeb12u2
+      Affected range : >=1.20.1-2+deb12u2  
       Fixed version  : not fixed           
     
 
@@ -904,6 +841,42 @@ pkg:deb/debian/curl@7.88.1-10%2Bdeb12u7?os_distro=bookworm&os_name=debian&os_ver
       Fixed version  : not fixed            
     
 
+   0C     0H     0M     1L  gnupg2 2.2.40-1.1
+pkg:deb/debian/gnupg2@2.2.40-1.1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2022-3219
+      https://scout.docker.com/v/CVE-2022-3219?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.2.40-1.1
+      Affected range : >=2.2.40-1.1  
+      Fixed version  : not fixed     
+    
+
+   0C     0H     0M     1L  gcc-12 12.2.0-14
+pkg:deb/debian/gcc-12@12.2.0-14?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2022-27943
+      https://scout.docker.com/v/CVE-2022-27943?s=debian&n=gcc-12&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D12.2.0-14
+      Affected range : >=12.2.0-14  
+      Fixed version  : not fixed    
+    
+
+   0C     0H     0M     1L  libpng1.6 1.6.39-2
+pkg:deb/debian/libpng1.6@1.6.39-2?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2021-4214
+      https://scout.docker.com/v/CVE-2021-4214?s=debian&n=libpng1.6&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.6.39-2
+      Affected range : >=1.6.39-2  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  sqlite3 3.40.1-2
+pkg:deb/debian/sqlite3@3.40.1-2?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2021-45346
+      https://scout.docker.com/v/CVE-2021-45346?s=debian&n=sqlite3&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.40.1-2
+      Affected range : >=3.40.1-2  
+      Fixed version  : not fixed   
+    
+
    0C     0H     0M     1L  elfutils 0.188-2.1
 pkg:deb/debian/elfutils@0.188-2.1?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -913,6 +886,24 @@ pkg:deb/debian/elfutils@0.188-2.1?os_distro=bookworm&os_name=debian&os_version=1
       Fixed version  : not fixed    
     
 
+   0C     0H     0M     1L  libxml2 2.9.14+dfsg-1.3~deb12u1
+pkg:deb/debian/libxml2@2.9.14%2Bdfsg-1.3~deb12u1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2024-34459
+      https://scout.docker.com/v/CVE-2024-34459?s=debian&n=libxml2&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D2.9.14%2Bdfsg-1.3%7Edeb12u1
+      Affected range : >=2.9.14+dfsg-1.3~deb12u1  
+      Fixed version  : not fixed                  
+    
+
+   0C     0H     0M     1L  pixman 0.42.2-1
+pkg:deb/debian/pixman@0.42.2-1?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2023-37769
+      https://scout.docker.com/v/CVE-2023-37769?s=debian&n=pixman&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D0.42.2-1
+      Affected range : >=0.42.2-1  
+      Fixed version  : not fixed   
+    
+
    0C     0H     0M     1L  tar 1.34+dfsg-1.2+deb12u1
 pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?os_distro=bookworm&os_name=debian&os_version=12
 
@@ -920,6 +911,15 @@ pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?os_distro=bookworm&os_name=debian&o
       https://scout.docker.com/v/CVE-2005-2541?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D1.34%2Bdfsg-1.2%2Bdeb12u1
       Affected range : >=1.34+dfsg-1.2+deb12u1  
       Fixed version  : not fixed                
+    
+
+   0C     0H     0M     1L  openexr 3.1.5-5
+pkg:deb/debian/openexr@3.1.5-5?os_distro=bookworm&os_name=debian&os_version=12
+
+    ✗ LOW CVE-2017-14988
+      https://scout.docker.com/v/CVE-2017-14988?s=debian&n=openexr&ns=debian&t=deb&osn=debian&osv=12&vr=%3E%3D3.1.5-5
+      Affected range : >=3.1.5-5  
+      Fixed version  : not fixed  
     
 
    0C     0H     0M     0L     2?  libyaml 0.2.5-1
