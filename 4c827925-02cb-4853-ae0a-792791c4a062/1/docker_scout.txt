@@ -1,0 +1,2 @@
+[31mERROR  [0m Status: failed to get image ghcr.io/zt-iot/ota_code_repo:latest: failed to pull image ghcr.io/zt-iot/ota_code_repo:latest: GET https://ghcr.io/token?scope=repository%3Azt-iot%2Fota_code_repo%3Apull&service=ghcr.io: UNAUTHORIZED: authentication required, Code: 1 
+IMAGE ID:zt-iot/ota_code_repo:latest 
