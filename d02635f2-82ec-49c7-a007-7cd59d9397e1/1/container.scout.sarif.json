@@ -807,13 +807,13 @@
               "shortDescription": {
                 "text": "CVE-2023-4039"
               },
-              "helpUri": "https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-10&ns=debian&t=deb&osn=debian&osv=11&vr=%3E%3D10.2.1-6",
+              "helpUri": "https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-9&ns=debian&t=deb&osn=debian&osv=11&vr=%3E%3D9.3.0-22",
               "help": {
                 "text": "**DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.\n\n---\n- gcc-13 13.2.0-4 (unimportant)\n- gcc-12 12.3.0-9 (unimportant)\n[bookworm] - gcc-12 12.2.0-14+deb12u1\n- gcc-11 11.4.0-4 (unimportant)\n- gcc-10 10.5.0-3 (unimportant)\n- gcc-9 9.5.0-6 (unimportant)\n- gcc-8 <removed> (unimportant)\n- gcc-7 <removed> (unimportant)\nhttps://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf\nNot considered a security issue by GCC upstream\nhttps://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64\n",
-                "markdown": "> **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.\n\n---\n- gcc-13 13.2.0-4 (unimportant)\n- gcc-12 12.3.0-9 (unimportant)\n[bookworm] - gcc-12 12.2.0-14+deb12u1\n- gcc-11 11.4.0-4 (unimportant)\n- gcc-10 10.5.0-3 (unimportant)\n- gcc-9 9.5.0-6 (unimportant)\n- gcc-8 <removed> (unimportant)\n- gcc-7 <removed> (unimportant)\nhttps://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf\nNot considered a security issue by GCC upstream\nhttps://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64\n\n|                                                                                                |\n|Package         pkg:deb/debian/gcc-10@10.2.1-6?os_distro=bullseye&os_name=debian&os_version=11  |\n|Affected range  >=10.2.1-6                                                                      |\n|Fixed version   not fixed                                                                       |\n"
+                "markdown": "> **DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.\n\n---\n- gcc-13 13.2.0-4 (unimportant)\n- gcc-12 12.3.0-9 (unimportant)\n[bookworm] - gcc-12 12.2.0-14+deb12u1\n- gcc-11 11.4.0-4 (unimportant)\n- gcc-10 10.5.0-3 (unimportant)\n- gcc-9 9.5.0-6 (unimportant)\n- gcc-8 <removed> (unimportant)\n- gcc-7 <removed> (unimportant)\nhttps://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf\nNot considered a security issue by GCC upstream\nhttps://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64\n\n|                                                                                               |\n|Package         pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11  |\n|Affected range  >=9.3.0-22                                                                     |\n|Fixed version   not fixed                                                                      |\n"
               },
               "properties": {
-                "affected_version": ">=9.3.0-22",
+                "affected_version": ">=10.2.1-6",
                 "cvssV3_severity": "LOW",
                 "fixed_version": "not fixed",
                 "purls": [
@@ -1875,7 +1875,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2005-2541                                                                               \nSeverity         :LOW                                                                                         \nPackage          :pkg:deb/debian/tar@1.34%2Bdfsg-1%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.34+dfsg-1+deb11u1                                                                       \nFixed version    :not fixed                                                                                   \nEPSS Score       :0.015300                                                                                    \nEPSS Percentile  :0.808340                                                                                    \n"
+            "text": "Vulnerability    :CVE-2005-2541                                                                               \nSeverity         :LOW                                                                                         \nPackage          :pkg:deb/debian/tar@1.34%2Bdfsg-1%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.34+dfsg-1+deb11u1                                                                       \nFixed version    :not fixed                                                                                   \nEPSS Score       :0.015300                                                                                    \nEPSS Percentile  :0.808530                                                                                    \n"
           },
           "locations": [
             {
@@ -2299,7 +2299,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2007-5686                                                                      \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1:4.8.1-1                                                                        \nFixed version    :not fixed                                                                          \nEPSS Score       :0.002060                                                                           \nEPSS Percentile  :0.429930                                                                           \n"
+            "text": "Vulnerability    :CVE-2007-5686                                                                      \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1:4.8.1-1                                                                        \nFixed version    :not fixed                                                                          \nEPSS Score       :0.002060                                                                           \nEPSS Percentile  :0.430260                                                                           \n"
           },
           "locations": [
             {
@@ -5250,7 +5250,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2010-0928                                                                              \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.1.1w-0+deb11u1                                                                         \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.001190                                                                                   \nEPSS Percentile  :0.316760                                                                                   \n"
+            "text": "Vulnerability    :CVE-2010-0928                                                                              \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.1.1w-0+deb11u1                                                                         \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.001190                                                                                   \nEPSS Percentile  :0.317340                                                                                   \n"
           },
           "locations": [
             {
@@ -5338,7 +5338,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2010-4756                                                                            \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003190                                                                                 \nEPSS Percentile  :0.544640                                                                                 \n"
+            "text": "Vulnerability    :CVE-2010-4756                                                                            \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003190                                                                                 \nEPSS Percentile  :0.544920                                                                                 \n"
           },
           "locations": [
             {
@@ -7673,7 +7673,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2011-3374                                                             \nSeverity         :LOW                                                                       \nPackage          :pkg:deb/debian/apt@2.2.4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.2.4                                                                   \nFixed version    :not fixed                                                                 \nEPSS Score       :0.015090                                                                  \nEPSS Percentile  :0.807170                                                                  \n"
+            "text": "Vulnerability    :CVE-2011-3374                                                             \nSeverity         :LOW                                                                       \nPackage          :pkg:deb/debian/apt@2.2.4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.2.4                                                                   \nFixed version    :not fixed                                                                 \nEPSS Score       :0.015090                                                                  \nEPSS Percentile  :0.807360                                                                  \n"
           },
           "locations": [
             {
@@ -9476,7 +9476,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2011-3389                                                                              \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=3.7.1-5+deb11u5                                                                          \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.037950                                                                                   \nEPSS Percentile  :0.876960                                                                                   \n"
+            "text": "Vulnerability    :CVE-2011-3389                                                                              \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=3.7.1-5+deb11u5                                                                          \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.037950                                                                                   \nEPSS Percentile  :0.877050                                                                                   \n"
           },
           "locations": [
             {
@@ -9683,7 +9683,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2011-4116                                                                           \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=5.32.1-4+deb11u3                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.002000                                                                                \nEPSS Percentile  :0.422870                                                                                \n"
+            "text": "Vulnerability    :CVE-2011-4116                                                                           \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=5.32.1-4+deb11u3                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.002000                                                                                \nEPSS Percentile  :0.423170                                                                                \n"
           },
           "locations": [
             {
@@ -14069,7 +14069,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2013-4235                                                                      \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1:4.8.1-1                                                                        \nFixed version    :not fixed                                                                          \nEPSS Score       :0.000660                                                                           \nEPSS Percentile  :0.207380                                                                           \n"
+            "text": "Vulnerability    :CVE-2013-4235                                                                      \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1:4.8.1-1                                                                        \nFixed version    :not fixed                                                                          \nEPSS Score       :0.000660                                                                           \nEPSS Percentile  :0.208320                                                                           \n"
           },
           "locations": [
             {
@@ -17020,7 +17020,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2013-4392                                                                             \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000570                                                                                  \nEPSS Percentile  :0.179260                                                                                  \n"
+            "text": "Vulnerability    :CVE-2013-4392                                                                             \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000570                                                                                  \nEPSS Percentile  :0.180110                                                                                  \n"
           },
           "locations": [
             {
@@ -17108,7 +17108,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2017-11164                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.002740                                                                          \nEPSS Percentile  :0.506150                                                                          \n"
+            "text": "Vulnerability    :CVE-2017-11164                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.002740                                                                          \nEPSS Percentile  :0.506210                                                                          \n"
           },
           "locations": [
             {
@@ -17210,7 +17210,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2017-16231                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.000960                                                                          \nEPSS Percentile  :0.272960                                                                          \n"
+            "text": "Vulnerability    :CVE-2017-16231                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.000960                                                                          \nEPSS Percentile  :0.273330                                                                          \n"
           },
           "locations": [
             {
@@ -17312,7 +17312,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2017-18018                                                                   \nSeverity         :LOW                                                                              \nPackage          :pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=8.32-4                                                                         \nFixed version    :not fixed                                                                        \nEPSS Score       :0.000560                                                                         \nEPSS Percentile  :0.175240                                                                         \n"
+            "text": "Vulnerability    :CVE-2017-18018                                                                   \nSeverity         :LOW                                                                              \nPackage          :pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=8.32-4                                                                         \nFixed version    :not fixed                                                                        \nEPSS Score       :0.000560                                                                         \nEPSS Percentile  :0.176050                                                                         \n"
           },
           "locations": [
             {
@@ -19213,7 +19213,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2017-7245                                                                     \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.004360                                                                          \nEPSS Percentile  :0.623640                                                                          \n"
+            "text": "Vulnerability    :CVE-2017-7245                                                                     \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.004360                                                                          \nEPSS Percentile  :0.624130                                                                          \n"
           },
           "locations": [
             {
@@ -19315,7 +19315,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2017-7246                                                                     \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.005900                                                                          \nEPSS Percentile  :0.684560                                                                          \n"
+            "text": "Vulnerability    :CVE-2017-7246                                                                     \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.005900                                                                          \nEPSS Percentile  :0.685060                                                                          \n"
           },
           "locations": [
             {
@@ -19417,7 +19417,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2018-20796                                                                           \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.016690                                                                                 \nEPSS Percentile  :0.816340                                                                                 \n"
+            "text": "Vulnerability    :CVE-2018-20796                                                                           \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.016690                                                                                 \nEPSS Percentile  :0.816460                                                                                 \n"
           },
           "locations": [
             {
@@ -21752,7 +21752,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2018-5709                                                                           \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.004630                                                                                \nEPSS Percentile  :0.635220                                                                                \n"
+            "text": "Vulnerability    :CVE-2018-5709                                                                           \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.004630                                                                                \nEPSS Percentile  :0.635730                                                                                \n"
           },
           "locations": [
             {
@@ -21945,7 +21945,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2018-6829                                                                       \nSeverity         :LOW                                                                                 \nPackage          :pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.8.7-6                                                                           \nFixed version    :not fixed                                                                           \nEPSS Score       :0.005770                                                                            \nEPSS Percentile  :0.680580                                                                            \n"
+            "text": "Vulnerability    :CVE-2018-6829                                                                       \nSeverity         :LOW                                                                                 \nPackage          :pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.8.7-6                                                                           \nFixed version    :not fixed                                                                           \nEPSS Score       :0.005770                                                                            \nEPSS Percentile  :0.681080                                                                            \n"
           },
           "locations": [
             {
@@ -22033,7 +22033,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-1010022                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.001450                                                                                 \nEPSS Percentile  :0.354900                                                                                 \n"
+            "text": "Vulnerability    :CVE-2019-1010022                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.001450                                                                                 \nEPSS Percentile  :0.355390                                                                                 \n"
           },
           "locations": [
             {
@@ -24368,7 +24368,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-1010023                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003460                                                                                 \nEPSS Percentile  :0.566270                                                                                 \n"
+            "text": "Vulnerability    :CVE-2019-1010023                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003460                                                                                 \nEPSS Percentile  :0.566730                                                                                 \n"
           },
           "locations": [
             {
@@ -26703,7 +26703,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-1010024                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003640                                                                                 \nEPSS Percentile  :0.578570                                                                                 \n"
+            "text": "Vulnerability    :CVE-2019-1010024                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003640                                                                                 \nEPSS Percentile  :0.579000                                                                                 \n"
           },
           "locations": [
             {
@@ -29038,7 +29038,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-1010025                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003560                                                                                 \nEPSS Percentile  :0.572820                                                                                 \n"
+            "text": "Vulnerability    :CVE-2019-1010025                                                                         \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.003560                                                                                 \nEPSS Percentile  :0.573260                                                                                 \n"
           },
           "locations": [
             {
@@ -31373,7 +31373,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-20838                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.003060                                                                          \nEPSS Percentile  :0.534060                                                                          \n"
+            "text": "Vulnerability    :CVE-2019-20838                                                                    \nSeverity         :LOW                                                                               \nPackage          :pkg:deb/debian/pcre3@2%3A8.39-13?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2:8.39-13                                                                       \nFixed version    :not fixed                                                                         \nEPSS Score       :0.003060                                                                          \nEPSS Percentile  :0.534370                                                                          \n"
           },
           "locations": [
             {
@@ -31475,7 +31475,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2019-9192                                                                            \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.009420                                                                                 \nEPSS Percentile  :0.756510                                                                                 \n"
+            "text": "Vulnerability    :CVE-2019-9192                                                                            \nSeverity         :LOW                                                                                      \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.31-13+deb11u11                                                                       \nFixed version    :not fixed                                                                                \nEPSS Score       :0.009420                                                                                 \nEPSS Percentile  :0.756830                                                                                 \n"
           },
           "locations": [
             {
@@ -33810,7 +33810,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2020-13529                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000650                                                                                  \nEPSS Percentile  :0.204520                                                                                  \n"
+            "text": "Vulnerability    :CVE-2020-13529                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000650                                                                                  \nEPSS Percentile  :0.205390                                                                                  \n"
           },
           "locations": [
             {
@@ -33898,7 +33898,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2022-0563                                                                                 \nSeverity         :LOW                                                                                           \nPackage          :pkg:deb/debian/util-linux@2.36.1-8%2Bdeb11u2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.36.1-8+deb11u2                                                                            \nFixed version    :not fixed                                                                                     \nEPSS Score       :0.000200                                                                                      \nEPSS Percentile  :0.045050                                                                                      \n"
+            "text": "Vulnerability    :CVE-2022-0563                                                                                 \nSeverity         :LOW                                                                                           \nPackage          :pkg:deb/debian/util-linux@2.36.1-8%2Bdeb11u2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.36.1-8+deb11u2                                                                            \nFixed version    :not fixed                                                                                     \nEPSS Score       :0.000200                                                                                      \nEPSS Percentile  :0.045230                                                                                      \n"
           },
           "locations": [
             {
@@ -36576,7 +36576,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2022-3219                                                                             \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/gnupg2@2.2.27-2%2Bdeb11u2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.2.27-2+deb11u2                                                                        \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000120                                                                                  \nEPSS Percentile  :0.014010                                                                                  \n"
+            "text": "Vulnerability    :CVE-2022-3219                                                                             \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/gnupg2@2.2.27-2%2Bdeb11u2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=2.2.27-2+deb11u2                                                                        \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000130                                                                                  \nEPSS Percentile  :0.016250                                                                                  \n"
           },
           "locations": [
             {
@@ -36657,7 +36657,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2022-41409                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/pcre2@10.36-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=10.36-2+deb11u1                                                                       \nFixed version    :not fixed                                                                               \nEPSS Score       :0.000610                                                                                \nEPSS Percentile  :0.191720                                                                                \n"
+            "text": "Vulnerability    :CVE-2022-41409                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/pcre2@10.36-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=10.36-2+deb11u1                                                                       \nFixed version    :not fixed                                                                               \nEPSS Score       :0.000610                                                                                \nEPSS Percentile  :0.192560                                                                                \n"
           },
           "locations": [
             {
@@ -36724,7 +36724,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-31437                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.001280                                                                                  \nEPSS Percentile  :0.329900                                                                                  \n"
+            "text": "Vulnerability    :CVE-2023-31437                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.001280                                                                                  \nEPSS Percentile  :0.330460                                                                                  \n"
           },
           "locations": [
             {
@@ -36812,7 +36812,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-31438                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.001000                                                                                  \nEPSS Percentile  :0.285080                                                                                  \n"
+            "text": "Vulnerability    :CVE-2023-31438                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.001000                                                                                  \nEPSS Percentile  :0.285370                                                                                  \n"
           },
           "locations": [
             {
@@ -36900,7 +36900,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-31439                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000940                                                                                  \nEPSS Percentile  :0.269470                                                                                  \n"
+            "text": "Vulnerability    :CVE-2023-31439                                                                            \nSeverity         :LOW                                                                                       \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=247.3-7+deb11u5                                                                         \nFixed version    :not fixed                                                                                 \nEPSS Score       :0.000940                                                                                  \nEPSS Percentile  :0.269830                                                                                  \n"
           },
           "locations": [
             {
@@ -36988,7 +36988,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-31486                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=5.32.1-4+deb11u3                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.005600                                                                                \nEPSS Percentile  :0.675130                                                                                \n"
+            "text": "Vulnerability    :CVE-2023-31486                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=5.32.1-4+deb11u3                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.005600                                                                                \nEPSS Percentile  :0.675690                                                                                \n"
           },
           "locations": [
             {
@@ -41374,67 +41374,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-4039                                                                  \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=9.3.0-22                                                                     \nFixed version    :not fixed                                                                      \nEPSS Score       :0.001810                                                                       \nEPSS Percentile  :0.400850                                                                       \n"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/gcc-9-base/copyright"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/var/lib/dpkg/info/gcc-9-base:arm64.md5sums"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/var/lib/dpkg/status"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/gcc-9-base/README.Debian.arm64.gz"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/gcc-9-base/TODO.Debian"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/gcc-9-base/changelog.Debian.gz"
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/gcc-9-base/copyright"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CVE-2023-4039",
-          "ruleIndex": 33,
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Vulnerability    :CVE-2023-4039                                                                   \nSeverity         :LOW                                                                             \nPackage          :pkg:deb/debian/gcc-10@10.2.1-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=10.2.1-6                                                                      \nFixed version    :not fixed                                                                       \nEPSS Score       :0.001810                                                                        \nEPSS Percentile  :0.400850                                                                        \n"
+            "text": "Vulnerability    :CVE-2023-4039                                                                   \nSeverity         :LOW                                                                             \nPackage          :pkg:deb/debian/gcc-10@10.2.1-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=10.2.1-6                                                                      \nFixed version    :not fixed                                                                       \nEPSS Score       :0.001810                                                                        \nEPSS Percentile  :0.401250                                                                        \n"
           },
           "locations": [
             {
@@ -41559,12 +41499,72 @@
           ]
         },
         {
+          "ruleId": "CVE-2023-4039",
+          "ruleIndex": 33,
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability    :CVE-2023-4039                                                                  \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=9.3.0-22                                                                     \nFixed version    :not fixed                                                                      \nEPSS Score       :0.001810                                                                       \nEPSS Percentile  :0.401250                                                                       \n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/gcc-9-base/copyright"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/var/lib/dpkg/info/gcc-9-base:arm64.md5sums"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/var/lib/dpkg/status"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/gcc-9-base/README.Debian.arm64.gz"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/gcc-9-base/TODO.Debian"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/gcc-9-base/changelog.Debian.gz"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/gcc-9-base/copyright"
+                }
+              }
+            }
+          ]
+        },
+        {
           "ruleId": "CVE-2024-2236",
           "ruleIndex": 34,
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2024-2236                                                                       \nSeverity         :LOW                                                                                 \nPackage          :pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.8.7-6                                                                           \nFixed version    :not fixed                                                                           \nEPSS Score       :0.002220                                                                            \nEPSS Percentile  :0.447810                                                                            \n"
+            "text": "Vulnerability    :CVE-2024-2236                                                                       \nSeverity         :LOW                                                                                 \nPackage          :pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.8.7-6                                                                           \nFixed version    :not fixed                                                                           \nEPSS Score       :0.001900                                                                            \nEPSS Percentile  :0.412360                                                                            \n"
           },
           "locations": [
             {
@@ -41652,7 +41652,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2024-26458                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.002060                                                                                \nEPSS Percentile  :0.431130                                                                                \n"
+            "text": "Vulnerability    :CVE-2024-26458                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.002060                                                                                \nEPSS Percentile  :0.431460                                                                                \n"
           },
           "locations": [
             {
@@ -41845,7 +41845,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2024-26461                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.000620                                                                                \nEPSS Percentile  :0.194860                                                                                \n"
+            "text": "Vulnerability    :CVE-2024-26461                                                                          \nSeverity         :LOW                                                                                     \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.18.3-6+deb11u5                                                                      \nFixed version    :not fixed                                                                               \nEPSS Score       :0.000810                                                                                \nEPSS Percentile  :0.244820                                                                                \n"
           },
           "locations": [
             {
@@ -42038,7 +42038,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2025-27587                                                                             \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.1.1w-0+deb11u1                                                                         \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.000350                                                                                   \nEPSS Percentile  :0.100900                                                                                   \n"
+            "text": "Vulnerability    :CVE-2025-27587                                                                             \nSeverity         :LOW                                                                                        \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=1.1.1w-0+deb11u1                                                                         \nFixed version    :not fixed                                                                                  \nEPSS Score       :0.000350                                                                                   \nEPSS Percentile  :0.101540                                                                                   \n"
           },
           "locations": [
             {
@@ -42126,7 +42126,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2025-5278                                                                    \nSeverity         :LOW                                                                              \nPackage          :pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=8.32-4                                                                         \nFixed version    :not fixed                                                                        \nEPSS Score       :0.000160                                                                         \nEPSS Percentile  :0.027860                                                                         \n"
+            "text": "Vulnerability    :CVE-2025-5278                                                                    \nSeverity         :LOW                                                                              \nPackage          :pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :>=8.32-4                                                                         \nFixed version    :not fixed                                                                        \nEPSS Score       :0.000160                                                                         \nEPSS Percentile  :0.027930                                                                         \n"
           },
           "locations": [
             {
@@ -44027,7 +44027,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2021-36084                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.030950                                                                       \n"
+            "text": "Vulnerability    :CVE-2021-36084                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031000                                                                       \n"
           },
           "locations": [
             {
@@ -44080,7 +44080,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2021-36085                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031000                                                                       \n"
+            "text": "Vulnerability    :CVE-2021-36085                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031040                                                                       \n"
           },
           "locations": [
             {
@@ -44133,7 +44133,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2021-36086                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031000                                                                       \n"
+            "text": "Vulnerability    :CVE-2021-36086                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031040                                                                       \n"
           },
           "locations": [
             {
@@ -44186,7 +44186,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2021-36087                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031000                                                                       \n"
+            "text": "Vulnerability    :CVE-2021-36087                                                                 \nSeverity         :LOW                                                                            \nPackage          :pkg:deb/debian/libsepol@3.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.1-1+deb11u1                                                                 \nFixed version    :3.1-1+deb11u1                                                                  \nEPSS Score       :0.000170                                                                       \nEPSS Percentile  :0.031040                                                                       \n"
           },
           "locations": [
             {
@@ -44239,7 +44239,7 @@
           "kind": "fail",
           "level": "note",
           "message": {
-            "text": "Vulnerability    :CVE-2023-29383                                                                     \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1:4.8.1-1+deb11u1                                                                 \nFixed version    :1:4.8.1-1+deb11u1                                                                  \nEPSS Score       :0.000270                                                                           \nEPSS Percentile  :0.070470                                                                           \n"
+            "text": "Vulnerability    :CVE-2023-29383                                                                     \nSeverity         :LOW                                                                                \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1:4.8.1-1+deb11u1                                                                 \nFixed version    :1:4.8.1-1+deb11u1                                                                  \nEPSS Score       :0.000270                                                                           \nEPSS Percentile  :0.070990                                                                           \n"
           },
           "locations": [
             {
@@ -47190,7 +47190,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-13176                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u3                                                                          \nFixed version    :1.1.1w-0+deb11u3                                                                           \nEPSS Score       :0.001230                                                                                   \nEPSS Percentile  :0.323250                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-13176                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u3                                                                          \nFixed version    :1.1.1w-0+deb11u3                                                                           \nEPSS Score       :0.001230                                                                                   \nEPSS Percentile  :0.323810                                                                                   \n"
           },
           "locations": [
             {
@@ -47278,7 +47278,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-9143                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.006390                                                                                   \nEPSS Percentile  :0.698400                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-9143                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.006560                                                                                   \nEPSS Percentile  :0.703990                                                                                   \n"
           },
           "locations": [
             {
@@ -47366,7 +47366,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2023-4641                                                                      \nSeverity         :MEDIUM                                                                             \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1:4.8.1-1+deb11u1                                                                 \nFixed version    :1:4.8.1-1+deb11u1                                                                  \nEPSS Score       :0.000150                                                                           \nEPSS Percentile  :0.025100                                                                           \n"
+            "text": "Vulnerability    :CVE-2023-4641                                                                      \nSeverity         :MEDIUM                                                                             \nPackage          :pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1:4.8.1-1+deb11u1                                                                 \nFixed version    :1:4.8.1-1+deb11u1                                                                  \nEPSS Score       :0.000150                                                                           \nEPSS Percentile  :0.025220                                                                           \n"
           },
           "locations": [
             {
@@ -50317,7 +50317,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2025-4598                                                                             \nSeverity         :MEDIUM                                                                                    \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<247.3-7+deb11u7                                                                          \nFixed version    :247.3-7+deb11u7                                                                           \nEPSS Score       :0.000420                                                                                  \nEPSS Percentile  :0.125460                                                                                  \n"
+            "text": "Vulnerability    :CVE-2025-4598                                                                             \nSeverity         :MEDIUM                                                                                    \nPackage          :pkg:deb/debian/systemd@247.3-7%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<247.3-7+deb11u7                                                                          \nFixed version    :247.3-7+deb11u7                                                                           \nEPSS Score       :0.000420                                                                                  \nEPSS Percentile  :0.126350                                                                                  \n"
           },
           "locations": [
             {
@@ -50405,7 +50405,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2023-5678                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.006380                                                                                   \nEPSS Percentile  :0.698180                                                                                   \n"
+            "text": "Vulnerability    :CVE-2023-5678                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.006560                                                                                   \nEPSS Percentile  :0.703790                                                                                   \n"
           },
           "locations": [
             {
@@ -50493,7 +50493,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-12133                                                                                \nSeverity         :MEDIUM                                                                                        \nPackage          :pkg:deb/debian/libtasn1-6@4.16.0-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<4.16.0-2+deb11u2                                                                             \nFixed version    :4.16.0-2+deb11u2                                                                              \nEPSS Score       :0.004110                                                                                      \nEPSS Percentile  :0.607680                                                                                      \n"
+            "text": "Vulnerability    :CVE-2024-12133                                                                                \nSeverity         :MEDIUM                                                                                        \nPackage          :pkg:deb/debian/libtasn1-6@4.16.0-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<4.16.0-2+deb11u2                                                                             \nFixed version    :4.16.0-2+deb11u2                                                                              \nEPSS Score       :0.004110                                                                                      \nEPSS Percentile  :0.608180                                                                                      \n"
           },
           "locations": [
             {
@@ -50574,7 +50574,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-12243                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u7                                                                           \nFixed version    :3.7.1-5+deb11u7                                                                            \nEPSS Score       :0.013970                                                                                   \nEPSS Percentile  :0.799230                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-12243                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u7                                                                           \nFixed version    :3.7.1-5+deb11u7                                                                            \nEPSS Score       :0.005260                                                                                   \nEPSS Percentile  :0.663720                                                                                   \n"
           },
           "locations": [
             {
@@ -50781,7 +50781,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-0727                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.001960                                                                                   \nEPSS Percentile  :0.418200                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-0727                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.001960                                                                                   \nEPSS Percentile  :0.418500                                                                                   \n"
           },
           "locations": [
             {
@@ -50869,7 +50869,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-22365                                                                        \nSeverity         :MEDIUM                                                                                \nPackage          :pkg:deb/debian/pam@1.4.0-9%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.4.0-9+deb11u2                                                                      \nFixed version    :1.4.0-9+deb11u2                                                                       \nEPSS Score       :0.000840                                                                              \nEPSS Percentile  :0.249240                                                                              \n"
+            "text": "Vulnerability    :CVE-2024-22365                                                                        \nSeverity         :MEDIUM                                                                                \nPackage          :pkg:deb/debian/pam@1.4.0-9%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.4.0-9+deb11u2                                                                      \nFixed version    :1.4.0-9+deb11u2                                                                       \nEPSS Score       :0.000840                                                                              \nEPSS Percentile  :0.249690                                                                              \n"
           },
           "locations": [
             {
@@ -52714,7 +52714,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2024-2511                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.046970                                                                                   \nEPSS Percentile  :0.889740                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-2511                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.046970                                                                                   \nEPSS Percentile  :0.889820                                                                                   \n"
           },
           "locations": [
             {
@@ -52802,7 +52802,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2025-3576                                                                           \nSeverity         :MEDIUM                                                                                  \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.18.3-6+deb11u7                                                                       \nFixed version    :1.18.3-6+deb11u7                                                                        \nEPSS Score       :0.000500                                                                                \nEPSS Percentile  :0.158700                                                                                \n"
+            "text": "Vulnerability    :CVE-2025-3576                                                                           \nSeverity         :MEDIUM                                                                                  \nPackage          :pkg:deb/debian/krb5@1.18.3-6%2Bdeb11u5?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.18.3-6+deb11u7                                                                       \nFixed version    :1.18.3-6+deb11u7                                                                        \nEPSS Score       :0.000490                                                                                \nEPSS Percentile  :0.155510                                                                                \n"
           },
           "locations": [
             {
@@ -52995,7 +52995,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2025-32988                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.000830                                                                                   \nEPSS Percentile  :0.246610                                                                                   \n"
+            "text": "Vulnerability    :CVE-2025-32988                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.001170                                                                                   \nEPSS Percentile  :0.313390                                                                                   \n"
           },
           "locations": [
             {
@@ -53202,7 +53202,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2025-32990                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.001100                                                                                   \nEPSS Percentile  :0.301070                                                                                   \n"
+            "text": "Vulnerability    :CVE-2025-32990                                                                             \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.001550                                                                                   \nEPSS Percentile  :0.369260                                                                                   \n"
           },
           "locations": [
             {
@@ -53409,7 +53409,7 @@
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Vulnerability    :CVE-2025-6395                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.000590                                                                                   \nEPSS Percentile  :0.187930                                                                                   \n"
+            "text": "Vulnerability    :CVE-2025-6395                                                                              \nSeverity         :MEDIUM                                                                                     \nPackage          :pkg:deb/debian/gnutls28@3.7.1-5%2Bdeb11u6?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<3.7.1-5+deb11u8                                                                           \nFixed version    :3.7.1-5+deb11u8                                                                            \nEPSS Score       :0.000840                                                                                   \nEPSS Percentile  :0.250530                                                                                   \n"
           },
           "locations": [
             {
@@ -53616,7 +53616,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2024-4741                                                                              \nSeverity         :HIGH                                                                                       \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.002380                                                                                   \nEPSS Percentile  :0.468730                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-4741                                                                              \nSeverity         :HIGH                                                                                       \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.002450                                                                                   \nEPSS Percentile  :0.477290                                                                                   \n"
           },
           "locations": [
             {
@@ -53704,7 +53704,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2025-0395                                                                            \nSeverity         :HIGH                                                                                     \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<2.31-13+deb11u12                                                                        \nFixed version    :2.31-13+deb11u12                                                                         \nEPSS Score       :0.006450                                                                                 \nEPSS Percentile  :0.700290                                                                                 \n"
+            "text": "Vulnerability    :CVE-2025-0395                                                                            \nSeverity         :HIGH                                                                                     \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<2.31-13+deb11u12                                                                        \nFixed version    :2.31-13+deb11u12                                                                         \nEPSS Score       :0.006450                                                                                 \nEPSS Percentile  :0.700710                                                                                 \n"
           },
           "locations": [
             {
@@ -56039,7 +56039,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2025-9230                                                                              \nSeverity         :HIGH                                                                                       \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u4                                                                          \nFixed version    :1.1.1w-0+deb11u4                                                                           \nEPSS Score       :0.000260                                                                                   \nEPSS Percentile  :0.065590                                                                                   \n"
+            "text": "Vulnerability    :CVE-2025-9230                                                                              \nSeverity         :HIGH                                                                                       \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u4                                                                          \nFixed version    :1.1.1w-0+deb11u4                                                                           \nEPSS Score       :0.000260                                                                                   \nEPSS Percentile  :0.066030                                                                                   \n"
           },
           "locations": [
             {
@@ -56127,7 +56127,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2020-16156                                                                          \nSeverity         :HIGH                                                                                    \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<5.32.1-4+deb11u4                                                                       \nFixed version    :5.32.1-4+deb11u4                                                                        \nEPSS Score       :0.000190                                                                                \nEPSS Percentile  :0.042450                                                                                \n"
+            "text": "Vulnerability    :CVE-2020-16156                                                                          \nSeverity         :HIGH                                                                                    \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<5.32.1-4+deb11u4                                                                       \nFixed version    :5.32.1-4+deb11u4                                                                        \nEPSS Score       :0.000190                                                                                \nEPSS Percentile  :0.042620                                                                                \n"
           },
           "locations": [
             {
@@ -60513,7 +60513,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2022-1304                                                                      \nSeverity         :HIGH                                                                               \nPackage          :pkg:deb/debian/e2fsprogs@1.46.2-2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.46.2-2+deb11u1                                                                  \nFixed version    :1.46.2-2+deb11u1                                                                   \nEPSS Score       :0.005320                                                                           \nEPSS Percentile  :0.666110                                                                           \n"
+            "text": "Vulnerability    :CVE-2022-1304                                                                      \nSeverity         :HIGH                                                                               \nPackage          :pkg:deb/debian/e2fsprogs@1.46.2-2?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.46.2-2+deb11u1                                                                  \nFixed version    :1.46.2-2+deb11u1                                                                   \nEPSS Score       :0.005470                                                                           \nEPSS Percentile  :0.671770                                                                           \n"
           },
           "locations": [
             {
@@ -61147,7 +61147,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2025-4802                                                                            \nSeverity         :HIGH                                                                                     \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<2.31-13+deb11u13                                                                        \nFixed version    :2.31-13+deb11u13                                                                         \nEPSS Score       :0.000120                                                                                 \nEPSS Percentile  :0.011590                                                                                 \n"
+            "text": "Vulnerability    :CVE-2025-4802                                                                            \nSeverity         :HIGH                                                                                     \nPackage          :pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<2.31-13+deb11u13                                                                        \nFixed version    :2.31-13+deb11u13                                                                         \nEPSS Score       :0.000120                                                                                 \nEPSS Percentile  :0.011540                                                                                 \n"
           },
           "locations": [
             {
@@ -63482,7 +63482,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2025-6020                                                                         \nSeverity         :HIGH                                                                                  \nPackage          :pkg:deb/debian/pam@1.4.0-9%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.4.0-9+deb11u2                                                                      \nFixed version    :1.4.0-9+deb11u2                                                                       \nEPSS Score       :0.000320                                                                              \nEPSS Percentile  :0.088890                                                                              \n"
+            "text": "Vulnerability    :CVE-2025-6020                                                                         \nSeverity         :HIGH                                                                                  \nPackage          :pkg:deb/debian/pam@1.4.0-9%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.4.0-9+deb11u2                                                                      \nFixed version    :1.4.0-9+deb11u2                                                                       \nEPSS Score       :0.000320                                                                              \nEPSS Percentile  :0.089640                                                                              \n"
           },
           "locations": [
             {
@@ -65327,7 +65327,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2023-31484                                                                          \nSeverity         :HIGH                                                                                    \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<5.32.1-4+deb11u4                                                                       \nFixed version    :5.32.1-4+deb11u4                                                                        \nEPSS Score       :0.011160                                                                                \nEPSS Percentile  :0.776490                                                                                \n"
+            "text": "Vulnerability    :CVE-2023-31484                                                                          \nSeverity         :HIGH                                                                                    \nPackage          :pkg:deb/debian/perl@5.32.1-4%2Bdeb11u3?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<5.32.1-4+deb11u4                                                                       \nFixed version    :5.32.1-4+deb11u4                                                                        \nEPSS Score       :0.011160                                                                                \nEPSS Percentile  :0.776730                                                                                \n"
           },
           "locations": [
             {
@@ -69713,7 +69713,7 @@
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Vulnerability    :CVE-2024-5535                                                                              \nSeverity         :CRITICAL                                                                                   \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.043730                                                                                   \nEPSS Percentile  :0.885740                                                                                   \n"
+            "text": "Vulnerability    :CVE-2024-5535                                                                              \nSeverity         :CRITICAL                                                                                   \nPackage          :pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11  \nAffected range   :<1.1.1w-0+deb11u2                                                                          \nFixed version    :1.1.1w-0+deb11u2                                                                           \nEPSS Score       :0.044890                                                                                   \nEPSS Percentile  :0.887180                                                                                   \n"
           },
           "locations": [
             {
