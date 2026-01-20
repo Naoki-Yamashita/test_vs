@@ -1,7 +1,7 @@
 
 ghcr.io/zt-iot/ota_code_repo/demo-app:v1 (debian 11.11)
 =======================================================
-Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
+Total: 170 (UNKNOWN: 5, LOW: 89, MEDIUM: 53, HIGH: 21, CRITICAL: 2)
 
 ┌────────────────────┬─────────────────────┬──────────┬──────────────┬─────────────────────────┬───────────────────┬──────────────────────────────────────────────────────────────┐
 │      Library       │    Vulnerability    │ Severity │    Status    │    Installed Version    │   Fixed Version   │                            Title                             │
@@ -82,6 +82,9 @@ Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
 │ libc-bin           │ CVE-2025-4802       │ HIGH     │ fixed        │ 2.31-13+deb11u11        │ 2.31-13+deb11u13  │ glibc: static setuid binary dlopen may incorrectly search    │
 │                    │                     │          │              │                         │                   │ LD_LIBRARY_PATH                                              │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-4802                    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-0861       │          │ affected     │                         │                   │ glibc: Integer overflow in memalign leads to heap corruption │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0861                    │
 │                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2023-4806       │ MEDIUM   │ will_not_fix │                         │                   │ glibc: potential use-after-free in getaddrinfo()             │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2023-4806                    │
@@ -94,8 +97,12 @@ Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-8058       │          │ fix_deferred │                         │                   │ glibc: Double free in glibc                                  │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-8058                    │
-│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2010-4756       │ LOW      │ affected     │                         │                   │ glibc: glob implementation can cause excessive CPU and       │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-0915       │          │ affected     │                         │                   │ glibc: glibc: Information disclosure via zero-valued network │
+│                    │                     │          │              │                         │                   │ query                                                        │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0915                    │
+│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2010-4756       │ LOW      │              │                         │                   │ glibc: glob implementation can cause excessive CPU and       │
 │                    │                     │          │              │                         │                   │ memory consumption due to...                                 │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2010-4756                    │
 │                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
@@ -120,14 +127,13 @@ Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
 │                    │ CVE-2019-9192       │          │              │                         │                   │ glibc: uncontrolled recursion in function                    │
 │                    │                     │          │              │                         │                   │ check_dst_limits_calc_pos_1 in posix/regexec.c               │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2019-9192                    │
-│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2026-0861       │ UNKNOWN  │              │                         │                   │ Passing too large an alignment to the memalign suite of      │
-│                    │                     │          │              │                         │                   │ functions (mem...                                            │
-│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0861                    │
 ├────────────────────┼─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │ libc6              │ CVE-2025-4802       │ HIGH     │ fixed        │                         │ 2.31-13+deb11u13  │ glibc: static setuid binary dlopen may incorrectly search    │
 │                    │                     │          │              │                         │                   │ LD_LIBRARY_PATH                                              │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-4802                    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-0861       │          │ affected     │                         │                   │ glibc: Integer overflow in memalign leads to heap corruption │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0861                    │
 │                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2023-4806       │ MEDIUM   │ will_not_fix │                         │                   │ glibc: potential use-after-free in getaddrinfo()             │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2023-4806                    │
@@ -140,8 +146,12 @@ Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-8058       │          │ fix_deferred │                         │                   │ glibc: Double free in glibc                                  │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-8058                    │
-│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2010-4756       │ LOW      │ affected     │                         │                   │ glibc: glob implementation can cause excessive CPU and       │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-0915       │          │ affected     │                         │                   │ glibc: glibc: Information disclosure via zero-valued network │
+│                    │                     │          │              │                         │                   │ query                                                        │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0915                    │
+│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2010-4756       │ LOW      │              │                         │                   │ glibc: glob implementation can cause excessive CPU and       │
 │                    │                     │          │              │                         │                   │ memory consumption due to...                                 │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2010-4756                    │
 │                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
@@ -166,10 +176,6 @@ Total: 168 (UNKNOWN: 7, LOW: 89, MEDIUM: 51, HIGH: 19, CRITICAL: 2)
 │                    │ CVE-2019-9192       │          │              │                         │                   │ glibc: uncontrolled recursion in function                    │
 │                    │                     │          │              │                         │                   │ check_dst_limits_calc_pos_1 in posix/regexec.c               │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2019-9192                    │
-│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2026-0861       │ UNKNOWN  │              │                         │                   │ Passing too large an alignment to the memalign suite of      │
-│                    │                     │          │              │                         │                   │ functions (mem...                                            │
-│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-0861                    │
 ├────────────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
 │ libcom-err2        │ CVE-2022-1304       │ HIGH     │ fixed        │ 1.46.2-2                │ 1.46.2-2+deb11u1  │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2022-1304                    │

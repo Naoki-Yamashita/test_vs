@@ -442,6 +442,33 @@
               }
             },
             {
+              "id": "CVE-2026-0861",
+              "name": "OsPackageVulnerability",
+              "shortDescription": {
+                "text": "glibc: Integer overflow in memalign leads to heap corruption"
+              },
+              "fullDescription": {
+                "text": "Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.\n\nNote that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1\u0026lt;\u0026lt;62+ 1, 1\u0026lt;\u0026lt;63] and exactly 1\u0026lt;\u0026lt;63 for posix_memalign and aligned_alloc.\n\nTypically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments."
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2026-0861",
+              "help": {
+                "text": "Vulnerability CVE-2026-0861\nSeverity: HIGH\nPackage: libc6\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)\nPassing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.\n\nNote that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1\u003c\u003c62+ 1, 1\u003c\u003c63] and exactly 1\u003c\u003c63 for posix_memalign and aligned_alloc.\n\nTypically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments.",
+                "markdown": "**Vulnerability CVE-2026-0861**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|HIGH|libc6||[CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)|\n\nPassing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.\n\nNote that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1\u003c\u003c62+ 1, 1\u003c\u003c63] and exactly 1\u003c\u003c63 for posix_memalign and aligned_alloc.\n\nTypically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.0",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "HIGH"
+                ]
+              }
+            },
+            {
               "id": "CVE-2023-4806",
               "name": "OsPackageVulnerability",
               "shortDescription": {
@@ -538,6 +565,33 @@
               "help": {
                 "text": "Vulnerability CVE-2025-8058\nSeverity: MEDIUM\nPackage: libc6\nFixed Version: \nLink: [CVE-2025-8058](https://avd.aquasec.com/nvd/cve-2025-8058)\nThe regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
                 "markdown": "**Vulnerability CVE-2025-8058**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc6||[CVE-2025-8058](https://avd.aquasec.com/nvd/cve-2025-8058)|\n\nThe regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library."
+              },
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "5.5",
+                "tags": [
+                  "vulnerability",
+                  "security",
+                  "MEDIUM"
+                ]
+              }
+            },
+            {
+              "id": "CVE-2026-0915",
+              "name": "OsPackageVulnerability",
+              "shortDescription": {
+                "text": "glibc: glibc: Information disclosure via zero-valued network query"
+              },
+              "fullDescription": {
+                "text": "Calling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library\u0026#39;s DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver."
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://avd.aquasec.com/nvd/cve-2026-0915",
+              "help": {
+                "text": "Vulnerability CVE-2026-0915\nSeverity: MEDIUM\nPackage: libc6\nFixed Version: \nLink: [CVE-2026-0915](https://avd.aquasec.com/nvd/cve-2026-0915)\nCalling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver.",
+                "markdown": "**Vulnerability CVE-2026-0915**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libc6||[CVE-2026-0915](https://avd.aquasec.com/nvd/cve-2026-0915)|\n\nCalling getnetbyaddr or getnetbyaddr_r with a configured nsswitch.conf that specifies the library's DNS backend for networks and queries for a zero-valued network in the GNU C Library version 2.0 to version 2.42 can leak stack contents to the configured DNS resolver."
               },
               "properties": {
                 "precision": "very-high",
@@ -735,33 +789,6 @@
                   "vulnerability",
                   "security",
                   "LOW"
-                ]
-              }
-            },
-            {
-              "id": "CVE-2026-0861",
-              "name": "OsPackageVulnerability",
-              "shortDescription": {
-                "text": "Passing too large an alignment to the memalign suite of functions (mem ..."
-              },
-              "fullDescription": {
-                "text": "Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption."
-              },
-              "defaultConfiguration": {
-                "level": "note"
-              },
-              "helpUri": "https://avd.aquasec.com/nvd/cve-2026-0861",
-              "help": {
-                "text": "Vulnerability CVE-2026-0861\nSeverity: UNKNOWN\nPackage: libc6\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)\nPassing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.",
-                "markdown": "**Vulnerability CVE-2026-0861**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|UNKNOWN|libc6||[CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)|\n\nPassing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption."
-              },
-              "properties": {
-                "precision": "very-high",
-                "security-severity": "0.0",
-                "tags": [
-                  "vulnerability",
-                  "security",
-                  "UNKNOWN"
                 ]
               }
             },
@@ -1042,15 +1069,15 @@
                 "text": "krb5: overflow when calculating ulog block size"
               },
               "fullDescription": {
-                "text": "A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service."
+                "text": "In MIT Kerberos 5 (aka krb5) before 1.22 (with incremental propagation), there is an integer overflow for a large update size to resize() in kdb_log.c. An authenticated attacker can cause an out-of-bounds write and kadmind daemon crash."
               },
               "defaultConfiguration": {
                 "level": "warning"
               },
               "helpUri": "https://avd.aquasec.com/nvd/cve-2025-24528",
               "help": {
-                "text": "Vulnerability CVE-2025-24528\nSeverity: MEDIUM\nPackage: libkrb5support0\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)\nA flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.",
-                "markdown": "**Vulnerability CVE-2025-24528**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libkrb5support0|1.18.3-6+deb11u6|[CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)|\n\nA flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service."
+                "text": "Vulnerability CVE-2025-24528\nSeverity: MEDIUM\nPackage: libkrb5support0\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)\nIn MIT Kerberos 5 (aka krb5) before 1.22 (with incremental propagation), there is an integer overflow for a large update size to resize() in kdb_log.c. An authenticated attacker can cause an out-of-bounds write and kadmind daemon crash.",
+                "markdown": "**Vulnerability CVE-2025-24528**\n| Severity | Package | Fixed Version | Link |\n| --- | --- | --- | --- |\n|MEDIUM|libkrb5support0|1.18.3-6+deb11u6|[CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)|\n\nIn MIT Kerberos 5 (aka krb5) before 1.22 (with incremental propagation), there is an integer overflow for a large update size to resize() in kdb_log.c. An authenticated attacker can cause an out-of-bounds write and kadmind daemon crash."
               },
               "properties": {
                 "precision": "very-high",
@@ -3116,8 +3143,35 @@
           ]
         },
         {
-          "ruleId": "CVE-2023-4806",
+          "ruleId": "CVE-2026-0861",
           "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0861\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zt-iot/ota_code_repo/demo-app",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "zt-iot/ota_code_repo/demo-app: libc-bin@2.31-13+deb11u11"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-4806",
+          "ruleIndex": 17,
           "level": "warning",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2023-4806\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-4806](https://avd.aquasec.com/nvd/cve-2023-4806)"
@@ -3144,7 +3198,7 @@
         },
         {
           "ruleId": "CVE-2023-4813",
-          "ruleIndex": 17,
+          "ruleIndex": 18,
           "level": "warning",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2023-4813\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-4813](https://avd.aquasec.com/nvd/cve-2023-4813)"
@@ -3171,7 +3225,7 @@
         },
         {
           "ruleId": "CVE-2025-0395",
-          "ruleIndex": 18,
+          "ruleIndex": 19,
           "level": "warning",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2025-0395\nSeverity: MEDIUM\nFixed Version: 2.31-13+deb11u12\nLink: [CVE-2025-0395](https://avd.aquasec.com/nvd/cve-2025-0395)"
@@ -3198,7 +3252,7 @@
         },
         {
           "ruleId": "CVE-2025-8058",
-          "ruleIndex": 19,
+          "ruleIndex": 20,
           "level": "warning",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2025-8058\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2025-8058](https://avd.aquasec.com/nvd/cve-2025-8058)"
@@ -3224,8 +3278,35 @@
           ]
         },
         {
+          "ruleId": "CVE-2026-0915",
+          "ruleIndex": 21,
+          "level": "warning",
+          "message": {
+            "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0915\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2026-0915](https://avd.aquasec.com/nvd/cve-2026-0915)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zt-iot/ota_code_repo/demo-app",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "zt-iot/ota_code_repo/demo-app: libc-bin@2.31-13+deb11u11"
+              }
+            }
+          ]
+        },
+        {
           "ruleId": "CVE-2010-4756",
-          "ruleIndex": 20,
+          "ruleIndex": 22,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2010-4756\nSeverity: LOW\nFixed Version: \nLink: [CVE-2010-4756](https://avd.aquasec.com/nvd/cve-2010-4756)"
@@ -3252,7 +3333,7 @@
         },
         {
           "ruleId": "CVE-2018-20796",
-          "ruleIndex": 21,
+          "ruleIndex": 23,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2018-20796\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-20796](https://avd.aquasec.com/nvd/cve-2018-20796)"
@@ -3279,7 +3360,7 @@
         },
         {
           "ruleId": "CVE-2019-1010022",
-          "ruleIndex": 22,
+          "ruleIndex": 24,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010022\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010022](https://avd.aquasec.com/nvd/cve-2019-1010022)"
@@ -3306,7 +3387,7 @@
         },
         {
           "ruleId": "CVE-2019-1010023",
-          "ruleIndex": 23,
+          "ruleIndex": 25,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010023\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010023](https://avd.aquasec.com/nvd/cve-2019-1010023)"
@@ -3333,7 +3414,7 @@
         },
         {
           "ruleId": "CVE-2019-1010024",
-          "ruleIndex": 24,
+          "ruleIndex": 26,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010024\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010024](https://avd.aquasec.com/nvd/cve-2019-1010024)"
@@ -3360,7 +3441,7 @@
         },
         {
           "ruleId": "CVE-2019-1010025",
-          "ruleIndex": 25,
+          "ruleIndex": 27,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010025\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010025](https://avd.aquasec.com/nvd/cve-2019-1010025)"
@@ -3387,37 +3468,10 @@
         },
         {
           "ruleId": "CVE-2019-9192",
-          "ruleIndex": 26,
+          "ruleIndex": 28,
           "level": "note",
           "message": {
             "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-9192\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-9192](https://avd.aquasec.com/nvd/cve-2019-9192)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "zt-iot/ota_code_repo/demo-app",
-                  "uriBaseId": "ROOTPATH"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 1
-                }
-              },
-              "message": {
-                "text": "zt-iot/ota_code_repo/demo-app: libc-bin@2.31-13+deb11u11"
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CVE-2026-0861",
-          "ruleIndex": 27,
-          "level": "note",
-          "message": {
-            "text": "Package: libc-bin\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0861\nSeverity: UNKNOWN\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)"
           },
           "locations": [
             {
@@ -3467,8 +3521,35 @@
           ]
         },
         {
-          "ruleId": "CVE-2023-4806",
+          "ruleId": "CVE-2026-0861",
           "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0861\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zt-iot/ota_code_repo/demo-app",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "zt-iot/ota_code_repo/demo-app: libc6@2.31-13+deb11u11"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-4806",
+          "ruleIndex": 17,
           "level": "warning",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2023-4806\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-4806](https://avd.aquasec.com/nvd/cve-2023-4806)"
@@ -3495,7 +3576,7 @@
         },
         {
           "ruleId": "CVE-2023-4813",
-          "ruleIndex": 17,
+          "ruleIndex": 18,
           "level": "warning",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2023-4813\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-4813](https://avd.aquasec.com/nvd/cve-2023-4813)"
@@ -3522,7 +3603,7 @@
         },
         {
           "ruleId": "CVE-2025-0395",
-          "ruleIndex": 18,
+          "ruleIndex": 19,
           "level": "warning",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2025-0395\nSeverity: MEDIUM\nFixed Version: 2.31-13+deb11u12\nLink: [CVE-2025-0395](https://avd.aquasec.com/nvd/cve-2025-0395)"
@@ -3549,7 +3630,7 @@
         },
         {
           "ruleId": "CVE-2025-8058",
-          "ruleIndex": 19,
+          "ruleIndex": 20,
           "level": "warning",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2025-8058\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2025-8058](https://avd.aquasec.com/nvd/cve-2025-8058)"
@@ -3575,8 +3656,35 @@
           ]
         },
         {
+          "ruleId": "CVE-2026-0915",
+          "ruleIndex": 21,
+          "level": "warning",
+          "message": {
+            "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0915\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2026-0915](https://avd.aquasec.com/nvd/cve-2026-0915)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "zt-iot/ota_code_repo/demo-app",
+                  "uriBaseId": "ROOTPATH"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "message": {
+                "text": "zt-iot/ota_code_repo/demo-app: libc6@2.31-13+deb11u11"
+              }
+            }
+          ]
+        },
+        {
           "ruleId": "CVE-2010-4756",
-          "ruleIndex": 20,
+          "ruleIndex": 22,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2010-4756\nSeverity: LOW\nFixed Version: \nLink: [CVE-2010-4756](https://avd.aquasec.com/nvd/cve-2010-4756)"
@@ -3603,7 +3711,7 @@
         },
         {
           "ruleId": "CVE-2018-20796",
-          "ruleIndex": 21,
+          "ruleIndex": 23,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2018-20796\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-20796](https://avd.aquasec.com/nvd/cve-2018-20796)"
@@ -3630,7 +3738,7 @@
         },
         {
           "ruleId": "CVE-2019-1010022",
-          "ruleIndex": 22,
+          "ruleIndex": 24,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010022\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010022](https://avd.aquasec.com/nvd/cve-2019-1010022)"
@@ -3657,7 +3765,7 @@
         },
         {
           "ruleId": "CVE-2019-1010023",
-          "ruleIndex": 23,
+          "ruleIndex": 25,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010023\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010023](https://avd.aquasec.com/nvd/cve-2019-1010023)"
@@ -3684,7 +3792,7 @@
         },
         {
           "ruleId": "CVE-2019-1010024",
-          "ruleIndex": 24,
+          "ruleIndex": 26,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010024\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010024](https://avd.aquasec.com/nvd/cve-2019-1010024)"
@@ -3711,7 +3819,7 @@
         },
         {
           "ruleId": "CVE-2019-1010025",
-          "ruleIndex": 25,
+          "ruleIndex": 27,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-1010025\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-1010025](https://avd.aquasec.com/nvd/cve-2019-1010025)"
@@ -3738,37 +3846,10 @@
         },
         {
           "ruleId": "CVE-2019-9192",
-          "ruleIndex": 26,
+          "ruleIndex": 28,
           "level": "note",
           "message": {
             "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2019-9192\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-9192](https://avd.aquasec.com/nvd/cve-2019-9192)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "zt-iot/ota_code_repo/demo-app",
-                  "uriBaseId": "ROOTPATH"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 1
-                }
-              },
-              "message": {
-                "text": "zt-iot/ota_code_repo/demo-app: libc6@2.31-13+deb11u11"
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CVE-2026-0861",
-          "ruleIndex": 27,
-          "level": "note",
-          "message": {
-            "text": "Package: libc6\nInstalled Version: 2.31-13+deb11u11\nVulnerability CVE-2026-0861\nSeverity: UNKNOWN\nFixed Version: \nLink: [CVE-2026-0861](https://avd.aquasec.com/nvd/cve-2026-0861)"
           },
           "locations": [
             {
@@ -3819,7 +3900,7 @@
         },
         {
           "ruleId": "CVE-2019-8457",
-          "ruleIndex": 28,
+          "ruleIndex": 29,
           "level": "error",
           "message": {
             "text": "Package: libdb5.3\nInstalled Version: 5.3.28+dfsg1-0.8\nVulnerability CVE-2019-8457\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2019-8457](https://avd.aquasec.com/nvd/cve-2019-8457)"
@@ -3900,7 +3981,7 @@
         },
         {
           "ruleId": "CVE-2021-33560",
-          "ruleIndex": 29,
+          "ruleIndex": 30,
           "level": "error",
           "message": {
             "text": "Package: libgcrypt20\nInstalled Version: 1.8.7-6\nVulnerability CVE-2021-33560\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2021-33560](https://avd.aquasec.com/nvd/cve-2021-33560)"
@@ -3927,7 +4008,7 @@
         },
         {
           "ruleId": "CVE-2018-6829",
-          "ruleIndex": 30,
+          "ruleIndex": 31,
           "level": "note",
           "message": {
             "text": "Package: libgcrypt20\nInstalled Version: 1.8.7-6\nVulnerability CVE-2018-6829\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-6829](https://avd.aquasec.com/nvd/cve-2018-6829)"
@@ -3954,7 +4035,7 @@
         },
         {
           "ruleId": "CVE-2024-2236",
-          "ruleIndex": 31,
+          "ruleIndex": 32,
           "level": "note",
           "message": {
             "text": "Package: libgcrypt20\nInstalled Version: 1.8.7-6\nVulnerability CVE-2024-2236\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-2236](https://avd.aquasec.com/nvd/cve-2024-2236)"
@@ -3981,7 +4062,7 @@
         },
         {
           "ruleId": "CVE-2025-32988",
-          "ruleIndex": 32,
+          "ruleIndex": 33,
           "level": "error",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2025-32988\nSeverity: HIGH\nFixed Version: 3.7.1-5+deb11u8\nLink: [CVE-2025-32988](https://avd.aquasec.com/nvd/cve-2025-32988)"
@@ -4008,7 +4089,7 @@
         },
         {
           "ruleId": "CVE-2025-32990",
-          "ruleIndex": 33,
+          "ruleIndex": 34,
           "level": "error",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2025-32990\nSeverity: HIGH\nFixed Version: 3.7.1-5+deb11u8\nLink: [CVE-2025-32990](https://avd.aquasec.com/nvd/cve-2025-32990)"
@@ -4035,7 +4116,7 @@
         },
         {
           "ruleId": "CVE-2024-12243",
-          "ruleIndex": 34,
+          "ruleIndex": 35,
           "level": "warning",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2024-12243\nSeverity: MEDIUM\nFixed Version: 3.7.1-5+deb11u7\nLink: [CVE-2024-12243](https://avd.aquasec.com/nvd/cve-2024-12243)"
@@ -4062,7 +4143,7 @@
         },
         {
           "ruleId": "CVE-2025-6395",
-          "ruleIndex": 35,
+          "ruleIndex": 36,
           "level": "warning",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2025-6395\nSeverity: MEDIUM\nFixed Version: 3.7.1-5+deb11u8\nLink: [CVE-2025-6395](https://avd.aquasec.com/nvd/cve-2025-6395)"
@@ -4089,7 +4170,7 @@
         },
         {
           "ruleId": "CVE-2011-3389",
-          "ruleIndex": 36,
+          "ruleIndex": 37,
           "level": "note",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2011-3389\nSeverity: LOW\nFixed Version: \nLink: [CVE-2011-3389](https://avd.aquasec.com/nvd/cve-2011-3389)"
@@ -4116,7 +4197,7 @@
         },
         {
           "ruleId": "CVE-2025-9820",
-          "ruleIndex": 37,
+          "ruleIndex": 38,
           "level": "note",
           "message": {
             "text": "Package: libgnutls30\nInstalled Version: 3.7.1-5+deb11u6\nVulnerability CVE-2025-9820\nSeverity: UNKNOWN\nFixed Version: \nLink: [CVE-2025-9820](https://avd.aquasec.com/nvd/cve-2025-9820)"
@@ -4143,7 +4224,7 @@
         },
         {
           "ruleId": "CVE-2025-24528",
-          "ruleIndex": 38,
+          "ruleIndex": 39,
           "level": "warning",
           "message": {
             "text": "Package: libgssapi-krb5-2\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-24528\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)"
@@ -4170,7 +4251,7 @@
         },
         {
           "ruleId": "CVE-2025-3576",
-          "ruleIndex": 39,
+          "ruleIndex": 40,
           "level": "warning",
           "message": {
             "text": "Package: libgssapi-krb5-2\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-3576\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u7\nLink: [CVE-2025-3576](https://avd.aquasec.com/nvd/cve-2025-3576)"
@@ -4197,7 +4278,7 @@
         },
         {
           "ruleId": "CVE-2018-5709",
-          "ruleIndex": 40,
+          "ruleIndex": 41,
           "level": "note",
           "message": {
             "text": "Package: libgssapi-krb5-2\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2018-5709\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-5709](https://avd.aquasec.com/nvd/cve-2018-5709)"
@@ -4224,7 +4305,7 @@
         },
         {
           "ruleId": "CVE-2024-26458",
-          "ruleIndex": 41,
+          "ruleIndex": 42,
           "level": "note",
           "message": {
             "text": "Package: libgssapi-krb5-2\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26458\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26458](https://avd.aquasec.com/nvd/cve-2024-26458)"
@@ -4251,7 +4332,7 @@
         },
         {
           "ruleId": "CVE-2024-26461",
-          "ruleIndex": 42,
+          "ruleIndex": 43,
           "level": "note",
           "message": {
             "text": "Package: libgssapi-krb5-2\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26461\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26461](https://avd.aquasec.com/nvd/cve-2024-26461)"
@@ -4278,7 +4359,7 @@
         },
         {
           "ruleId": "CVE-2025-24528",
-          "ruleIndex": 38,
+          "ruleIndex": 39,
           "level": "warning",
           "message": {
             "text": "Package: libk5crypto3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-24528\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)"
@@ -4305,7 +4386,7 @@
         },
         {
           "ruleId": "CVE-2025-3576",
-          "ruleIndex": 39,
+          "ruleIndex": 40,
           "level": "warning",
           "message": {
             "text": "Package: libk5crypto3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-3576\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u7\nLink: [CVE-2025-3576](https://avd.aquasec.com/nvd/cve-2025-3576)"
@@ -4332,7 +4413,7 @@
         },
         {
           "ruleId": "CVE-2018-5709",
-          "ruleIndex": 40,
+          "ruleIndex": 41,
           "level": "note",
           "message": {
             "text": "Package: libk5crypto3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2018-5709\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-5709](https://avd.aquasec.com/nvd/cve-2018-5709)"
@@ -4359,7 +4440,7 @@
         },
         {
           "ruleId": "CVE-2024-26458",
-          "ruleIndex": 41,
+          "ruleIndex": 42,
           "level": "note",
           "message": {
             "text": "Package: libk5crypto3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26458\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26458](https://avd.aquasec.com/nvd/cve-2024-26458)"
@@ -4386,7 +4467,7 @@
         },
         {
           "ruleId": "CVE-2024-26461",
-          "ruleIndex": 42,
+          "ruleIndex": 43,
           "level": "note",
           "message": {
             "text": "Package: libk5crypto3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26461\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26461](https://avd.aquasec.com/nvd/cve-2024-26461)"
@@ -4413,7 +4494,7 @@
         },
         {
           "ruleId": "CVE-2025-24528",
-          "ruleIndex": 38,
+          "ruleIndex": 39,
           "level": "warning",
           "message": {
             "text": "Package: libkrb5-3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-24528\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)"
@@ -4440,7 +4521,7 @@
         },
         {
           "ruleId": "CVE-2025-3576",
-          "ruleIndex": 39,
+          "ruleIndex": 40,
           "level": "warning",
           "message": {
             "text": "Package: libkrb5-3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-3576\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u7\nLink: [CVE-2025-3576](https://avd.aquasec.com/nvd/cve-2025-3576)"
@@ -4467,7 +4548,7 @@
         },
         {
           "ruleId": "CVE-2018-5709",
-          "ruleIndex": 40,
+          "ruleIndex": 41,
           "level": "note",
           "message": {
             "text": "Package: libkrb5-3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2018-5709\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-5709](https://avd.aquasec.com/nvd/cve-2018-5709)"
@@ -4494,7 +4575,7 @@
         },
         {
           "ruleId": "CVE-2024-26458",
-          "ruleIndex": 41,
+          "ruleIndex": 42,
           "level": "note",
           "message": {
             "text": "Package: libkrb5-3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26458\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26458](https://avd.aquasec.com/nvd/cve-2024-26458)"
@@ -4521,7 +4602,7 @@
         },
         {
           "ruleId": "CVE-2024-26461",
-          "ruleIndex": 42,
+          "ruleIndex": 43,
           "level": "note",
           "message": {
             "text": "Package: libkrb5-3\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26461\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26461](https://avd.aquasec.com/nvd/cve-2024-26461)"
@@ -4548,7 +4629,7 @@
         },
         {
           "ruleId": "CVE-2025-24528",
-          "ruleIndex": 38,
+          "ruleIndex": 39,
           "level": "warning",
           "message": {
             "text": "Package: libkrb5support0\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-24528\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u6\nLink: [CVE-2025-24528](https://avd.aquasec.com/nvd/cve-2025-24528)"
@@ -4575,7 +4656,7 @@
         },
         {
           "ruleId": "CVE-2025-3576",
-          "ruleIndex": 39,
+          "ruleIndex": 40,
           "level": "warning",
           "message": {
             "text": "Package: libkrb5support0\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2025-3576\nSeverity: MEDIUM\nFixed Version: 1.18.3-6+deb11u7\nLink: [CVE-2025-3576](https://avd.aquasec.com/nvd/cve-2025-3576)"
@@ -4602,7 +4683,7 @@
         },
         {
           "ruleId": "CVE-2018-5709",
-          "ruleIndex": 40,
+          "ruleIndex": 41,
           "level": "note",
           "message": {
             "text": "Package: libkrb5support0\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2018-5709\nSeverity: LOW\nFixed Version: \nLink: [CVE-2018-5709](https://avd.aquasec.com/nvd/cve-2018-5709)"
@@ -4629,7 +4710,7 @@
         },
         {
           "ruleId": "CVE-2024-26458",
-          "ruleIndex": 41,
+          "ruleIndex": 42,
           "level": "note",
           "message": {
             "text": "Package: libkrb5support0\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26458\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26458](https://avd.aquasec.com/nvd/cve-2024-26458)"
@@ -4656,7 +4737,7 @@
         },
         {
           "ruleId": "CVE-2024-26461",
-          "ruleIndex": 42,
+          "ruleIndex": 43,
           "level": "note",
           "message": {
             "text": "Package: libkrb5support0\nInstalled Version: 1.18.3-6+deb11u5\nVulnerability CVE-2024-26461\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-26461](https://avd.aquasec.com/nvd/cve-2024-26461)"
@@ -4737,7 +4818,7 @@
         },
         {
           "ruleId": "CVE-2025-6020",
-          "ruleIndex": 43,
+          "ruleIndex": 44,
           "level": "error",
           "message": {
             "text": "Package: libpam-modules\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2025-6020\nSeverity: HIGH\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2025-6020](https://avd.aquasec.com/nvd/cve-2025-6020)"
@@ -4764,7 +4845,7 @@
         },
         {
           "ruleId": "CVE-2024-10041",
-          "ruleIndex": 44,
+          "ruleIndex": 45,
           "level": "warning",
           "message": {
             "text": "Package: libpam-modules\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-10041\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2024-10041](https://avd.aquasec.com/nvd/cve-2024-10041)"
@@ -4791,7 +4872,7 @@
         },
         {
           "ruleId": "CVE-2024-22365",
-          "ruleIndex": 45,
+          "ruleIndex": 46,
           "level": "warning",
           "message": {
             "text": "Package: libpam-modules\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-22365\nSeverity: MEDIUM\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2024-22365](https://avd.aquasec.com/nvd/cve-2024-22365)"
@@ -4818,7 +4899,7 @@
         },
         {
           "ruleId": "CVE-2025-6020",
-          "ruleIndex": 43,
+          "ruleIndex": 44,
           "level": "error",
           "message": {
             "text": "Package: libpam-modules-bin\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2025-6020\nSeverity: HIGH\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2025-6020](https://avd.aquasec.com/nvd/cve-2025-6020)"
@@ -4845,7 +4926,7 @@
         },
         {
           "ruleId": "CVE-2024-10041",
-          "ruleIndex": 44,
+          "ruleIndex": 45,
           "level": "warning",
           "message": {
             "text": "Package: libpam-modules-bin\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-10041\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2024-10041](https://avd.aquasec.com/nvd/cve-2024-10041)"
@@ -4872,7 +4953,7 @@
         },
         {
           "ruleId": "CVE-2024-22365",
-          "ruleIndex": 45,
+          "ruleIndex": 46,
           "level": "warning",
           "message": {
             "text": "Package: libpam-modules-bin\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-22365\nSeverity: MEDIUM\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2024-22365](https://avd.aquasec.com/nvd/cve-2024-22365)"
@@ -4899,7 +4980,7 @@
         },
         {
           "ruleId": "CVE-2025-6020",
-          "ruleIndex": 43,
+          "ruleIndex": 44,
           "level": "error",
           "message": {
             "text": "Package: libpam-runtime\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2025-6020\nSeverity: HIGH\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2025-6020](https://avd.aquasec.com/nvd/cve-2025-6020)"
@@ -4926,7 +5007,7 @@
         },
         {
           "ruleId": "CVE-2024-10041",
-          "ruleIndex": 44,
+          "ruleIndex": 45,
           "level": "warning",
           "message": {
             "text": "Package: libpam-runtime\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-10041\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2024-10041](https://avd.aquasec.com/nvd/cve-2024-10041)"
@@ -4953,7 +5034,7 @@
         },
         {
           "ruleId": "CVE-2024-22365",
-          "ruleIndex": 45,
+          "ruleIndex": 46,
           "level": "warning",
           "message": {
             "text": "Package: libpam-runtime\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-22365\nSeverity: MEDIUM\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2024-22365](https://avd.aquasec.com/nvd/cve-2024-22365)"
@@ -4980,7 +5061,7 @@
         },
         {
           "ruleId": "CVE-2025-6020",
-          "ruleIndex": 43,
+          "ruleIndex": 44,
           "level": "error",
           "message": {
             "text": "Package: libpam0g\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2025-6020\nSeverity: HIGH\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2025-6020](https://avd.aquasec.com/nvd/cve-2025-6020)"
@@ -5007,7 +5088,7 @@
         },
         {
           "ruleId": "CVE-2024-10041",
-          "ruleIndex": 44,
+          "ruleIndex": 45,
           "level": "warning",
           "message": {
             "text": "Package: libpam0g\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-10041\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2024-10041](https://avd.aquasec.com/nvd/cve-2024-10041)"
@@ -5034,7 +5115,7 @@
         },
         {
           "ruleId": "CVE-2024-22365",
-          "ruleIndex": 45,
+          "ruleIndex": 46,
           "level": "warning",
           "message": {
             "text": "Package: libpam0g\nInstalled Version: 1.4.0-9+deb11u1\nVulnerability CVE-2024-22365\nSeverity: MEDIUM\nFixed Version: 1.4.0-9+deb11u2\nLink: [CVE-2024-22365](https://avd.aquasec.com/nvd/cve-2024-22365)"
@@ -5061,7 +5142,7 @@
         },
         {
           "ruleId": "CVE-2022-41409",
-          "ruleIndex": 46,
+          "ruleIndex": 47,
           "level": "note",
           "message": {
             "text": "Package: libpcre2-8-0\nInstalled Version: 10.36-2+deb11u1\nVulnerability CVE-2022-41409\nSeverity: LOW\nFixed Version: \nLink: [CVE-2022-41409](https://avd.aquasec.com/nvd/cve-2022-41409)"
@@ -5088,7 +5169,7 @@
         },
         {
           "ruleId": "CVE-2017-11164",
-          "ruleIndex": 47,
+          "ruleIndex": 48,
           "level": "note",
           "message": {
             "text": "Package: libpcre3\nInstalled Version: 2:8.39-13\nVulnerability CVE-2017-11164\nSeverity: LOW\nFixed Version: \nLink: [CVE-2017-11164](https://avd.aquasec.com/nvd/cve-2017-11164)"
@@ -5115,7 +5196,7 @@
         },
         {
           "ruleId": "CVE-2017-16231",
-          "ruleIndex": 48,
+          "ruleIndex": 49,
           "level": "note",
           "message": {
             "text": "Package: libpcre3\nInstalled Version: 2:8.39-13\nVulnerability CVE-2017-16231\nSeverity: LOW\nFixed Version: \nLink: [CVE-2017-16231](https://avd.aquasec.com/nvd/cve-2017-16231)"
@@ -5142,7 +5223,7 @@
         },
         {
           "ruleId": "CVE-2017-7245",
-          "ruleIndex": 49,
+          "ruleIndex": 50,
           "level": "note",
           "message": {
             "text": "Package: libpcre3\nInstalled Version: 2:8.39-13\nVulnerability CVE-2017-7245\nSeverity: LOW\nFixed Version: \nLink: [CVE-2017-7245](https://avd.aquasec.com/nvd/cve-2017-7245)"
@@ -5169,7 +5250,7 @@
         },
         {
           "ruleId": "CVE-2017-7246",
-          "ruleIndex": 50,
+          "ruleIndex": 51,
           "level": "note",
           "message": {
             "text": "Package: libpcre3\nInstalled Version: 2:8.39-13\nVulnerability CVE-2017-7246\nSeverity: LOW\nFixed Version: \nLink: [CVE-2017-7246](https://avd.aquasec.com/nvd/cve-2017-7246)"
@@ -5196,7 +5277,7 @@
         },
         {
           "ruleId": "CVE-2019-20838",
-          "ruleIndex": 51,
+          "ruleIndex": 52,
           "level": "note",
           "message": {
             "text": "Package: libpcre3\nInstalled Version: 2:8.39-13\nVulnerability CVE-2019-20838\nSeverity: LOW\nFixed Version: \nLink: [CVE-2019-20838](https://avd.aquasec.com/nvd/cve-2019-20838)"
@@ -5223,7 +5304,7 @@
         },
         {
           "ruleId": "CVE-2021-36084",
-          "ruleIndex": 52,
+          "ruleIndex": 53,
           "level": "note",
           "message": {
             "text": "Package: libsepol1\nInstalled Version: 3.1-1\nVulnerability CVE-2021-36084\nSeverity: LOW\nFixed Version: 3.1-1+deb11u1\nLink: [CVE-2021-36084](https://avd.aquasec.com/nvd/cve-2021-36084)"
@@ -5250,7 +5331,7 @@
         },
         {
           "ruleId": "CVE-2021-36085",
-          "ruleIndex": 53,
+          "ruleIndex": 54,
           "level": "note",
           "message": {
             "text": "Package: libsepol1\nInstalled Version: 3.1-1\nVulnerability CVE-2021-36085\nSeverity: LOW\nFixed Version: 3.1-1+deb11u1\nLink: [CVE-2021-36085](https://avd.aquasec.com/nvd/cve-2021-36085)"
@@ -5277,7 +5358,7 @@
         },
         {
           "ruleId": "CVE-2021-36086",
-          "ruleIndex": 54,
+          "ruleIndex": 55,
           "level": "note",
           "message": {
             "text": "Package: libsepol1\nInstalled Version: 3.1-1\nVulnerability CVE-2021-36086\nSeverity: LOW\nFixed Version: 3.1-1+deb11u1\nLink: [CVE-2021-36086](https://avd.aquasec.com/nvd/cve-2021-36086)"
@@ -5304,7 +5385,7 @@
         },
         {
           "ruleId": "CVE-2021-36087",
-          "ruleIndex": 55,
+          "ruleIndex": 56,
           "level": "note",
           "message": {
             "text": "Package: libsepol1\nInstalled Version: 3.1-1\nVulnerability CVE-2021-36087\nSeverity: LOW\nFixed Version: 3.1-1+deb11u1\nLink: [CVE-2021-36087](https://avd.aquasec.com/nvd/cve-2021-36087)"
@@ -5412,7 +5493,7 @@
         },
         {
           "ruleId": "CVE-2023-5678",
-          "ruleIndex": 56,
+          "ruleIndex": 57,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2023-5678\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2023-5678](https://avd.aquasec.com/nvd/cve-2023-5678)"
@@ -5439,7 +5520,7 @@
         },
         {
           "ruleId": "CVE-2024-0727",
-          "ruleIndex": 57,
+          "ruleIndex": 58,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-0727\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2024-0727](https://avd.aquasec.com/nvd/cve-2024-0727)"
@@ -5466,7 +5547,7 @@
         },
         {
           "ruleId": "CVE-2024-13176",
-          "ruleIndex": 58,
+          "ruleIndex": 59,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-13176\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u3\nLink: [CVE-2024-13176](https://avd.aquasec.com/nvd/cve-2024-13176)"
@@ -5493,7 +5574,7 @@
         },
         {
           "ruleId": "CVE-2024-4741",
-          "ruleIndex": 59,
+          "ruleIndex": 60,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-4741\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2024-4741](https://avd.aquasec.com/nvd/cve-2024-4741)"
@@ -5520,7 +5601,7 @@
         },
         {
           "ruleId": "CVE-2024-5535",
-          "ruleIndex": 60,
+          "ruleIndex": 61,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-5535\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2024-5535](https://avd.aquasec.com/nvd/cve-2024-5535)"
@@ -5547,7 +5628,7 @@
         },
         {
           "ruleId": "CVE-2025-9230",
-          "ruleIndex": 61,
+          "ruleIndex": 62,
           "level": "warning",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2025-9230\nSeverity: MEDIUM\nFixed Version: 1.1.1w-0+deb11u4\nLink: [CVE-2025-9230](https://avd.aquasec.com/nvd/cve-2025-9230)"
@@ -5574,7 +5655,7 @@
         },
         {
           "ruleId": "CVE-2024-2511",
-          "ruleIndex": 62,
+          "ruleIndex": 63,
           "level": "note",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-2511\nSeverity: LOW\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2024-2511](https://avd.aquasec.com/nvd/cve-2024-2511)"
@@ -5601,7 +5682,7 @@
         },
         {
           "ruleId": "CVE-2024-9143",
-          "ruleIndex": 63,
+          "ruleIndex": 64,
           "level": "note",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2024-9143\nSeverity: LOW\nFixed Version: 1.1.1w-0+deb11u2\nLink: [CVE-2024-9143](https://avd.aquasec.com/nvd/cve-2024-9143)"
@@ -5628,7 +5709,7 @@
         },
         {
           "ruleId": "CVE-2025-27587",
-          "ruleIndex": 64,
+          "ruleIndex": 65,
           "level": "note",
           "message": {
             "text": "Package: libssl1.1\nInstalled Version: 1.1.1w-0+deb11u1\nVulnerability CVE-2025-27587\nSeverity: LOW\nFixed Version: \nLink: [CVE-2025-27587](https://avd.aquasec.com/nvd/cve-2025-27587)"
@@ -5682,7 +5763,7 @@
         },
         {
           "ruleId": "CVE-2025-4598",
-          "ruleIndex": 65,
+          "ruleIndex": 66,
           "level": "warning",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2025-4598\nSeverity: MEDIUM\nFixed Version: 247.3-7+deb11u7\nLink: [CVE-2025-4598](https://avd.aquasec.com/nvd/cve-2025-4598)"
@@ -5709,7 +5790,7 @@
         },
         {
           "ruleId": "CVE-2013-4392",
-          "ruleIndex": 66,
+          "ruleIndex": 67,
           "level": "note",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2013-4392\nSeverity: LOW\nFixed Version: \nLink: [CVE-2013-4392](https://avd.aquasec.com/nvd/cve-2013-4392)"
@@ -5736,7 +5817,7 @@
         },
         {
           "ruleId": "CVE-2020-13529",
-          "ruleIndex": 67,
+          "ruleIndex": 68,
           "level": "note",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2020-13529\nSeverity: LOW\nFixed Version: \nLink: [CVE-2020-13529](https://avd.aquasec.com/nvd/cve-2020-13529)"
@@ -5763,7 +5844,7 @@
         },
         {
           "ruleId": "CVE-2023-31437",
-          "ruleIndex": 68,
+          "ruleIndex": 69,
           "level": "note",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31437\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31437](https://avd.aquasec.com/nvd/cve-2023-31437)"
@@ -5790,7 +5871,7 @@
         },
         {
           "ruleId": "CVE-2023-31438",
-          "ruleIndex": 69,
+          "ruleIndex": 70,
           "level": "note",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31438\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31438](https://avd.aquasec.com/nvd/cve-2023-31438)"
@@ -5817,7 +5898,7 @@
         },
         {
           "ruleId": "CVE-2023-31439",
-          "ruleIndex": 70,
+          "ruleIndex": 71,
           "level": "note",
           "message": {
             "text": "Package: libsystemd0\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31439\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31439](https://avd.aquasec.com/nvd/cve-2023-31439)"
@@ -5844,7 +5925,7 @@
         },
         {
           "ruleId": "CVE-2024-12133",
-          "ruleIndex": 71,
+          "ruleIndex": 72,
           "level": "warning",
           "message": {
             "text": "Package: libtasn1-6\nInstalled Version: 4.16.0-2+deb11u1\nVulnerability CVE-2024-12133\nSeverity: MEDIUM\nFixed Version: 4.16.0-2+deb11u2\nLink: [CVE-2024-12133](https://avd.aquasec.com/nvd/cve-2024-12133)"
@@ -5871,7 +5952,7 @@
         },
         {
           "ruleId": "CVE-2025-13151",
-          "ruleIndex": 72,
+          "ruleIndex": 73,
           "level": "warning",
           "message": {
             "text": "Package: libtasn1-6\nInstalled Version: 4.16.0-2+deb11u1\nVulnerability CVE-2025-13151\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2025-13151](https://avd.aquasec.com/nvd/cve-2025-13151)"
@@ -5898,7 +5979,7 @@
         },
         {
           "ruleId": "CVE-2023-50495",
-          "ruleIndex": 73,
+          "ruleIndex": 74,
           "level": "warning",
           "message": {
             "text": "Package: libtinfo6\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2023-50495\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-50495](https://avd.aquasec.com/nvd/cve-2023-50495)"
@@ -5925,7 +6006,7 @@
         },
         {
           "ruleId": "CVE-2025-6141",
-          "ruleIndex": 74,
+          "ruleIndex": 75,
           "level": "note",
           "message": {
             "text": "Package: libtinfo6\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2025-6141\nSeverity: LOW\nFixed Version: \nLink: [CVE-2025-6141](https://avd.aquasec.com/nvd/cve-2025-6141)"
@@ -5952,7 +6033,7 @@
         },
         {
           "ruleId": "CVE-2025-4598",
-          "ruleIndex": 65,
+          "ruleIndex": 66,
           "level": "warning",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2025-4598\nSeverity: MEDIUM\nFixed Version: 247.3-7+deb11u7\nLink: [CVE-2025-4598](https://avd.aquasec.com/nvd/cve-2025-4598)"
@@ -5979,7 +6060,7 @@
         },
         {
           "ruleId": "CVE-2013-4392",
-          "ruleIndex": 66,
+          "ruleIndex": 67,
           "level": "note",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2013-4392\nSeverity: LOW\nFixed Version: \nLink: [CVE-2013-4392](https://avd.aquasec.com/nvd/cve-2013-4392)"
@@ -6006,7 +6087,7 @@
         },
         {
           "ruleId": "CVE-2020-13529",
-          "ruleIndex": 67,
+          "ruleIndex": 68,
           "level": "note",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2020-13529\nSeverity: LOW\nFixed Version: \nLink: [CVE-2020-13529](https://avd.aquasec.com/nvd/cve-2020-13529)"
@@ -6033,7 +6114,7 @@
         },
         {
           "ruleId": "CVE-2023-31437",
-          "ruleIndex": 68,
+          "ruleIndex": 69,
           "level": "note",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31437\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31437](https://avd.aquasec.com/nvd/cve-2023-31437)"
@@ -6060,7 +6141,7 @@
         },
         {
           "ruleId": "CVE-2023-31438",
-          "ruleIndex": 69,
+          "ruleIndex": 70,
           "level": "note",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31438\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31438](https://avd.aquasec.com/nvd/cve-2023-31438)"
@@ -6087,7 +6168,7 @@
         },
         {
           "ruleId": "CVE-2023-31439",
-          "ruleIndex": 70,
+          "ruleIndex": 71,
           "level": "note",
           "message": {
             "text": "Package: libudev1\nInstalled Version: 247.3-7+deb11u6\nVulnerability CVE-2023-31439\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31439](https://avd.aquasec.com/nvd/cve-2023-31439)"
@@ -6168,7 +6249,7 @@
         },
         {
           "ruleId": "CVE-2022-4899",
-          "ruleIndex": 75,
+          "ruleIndex": 76,
           "level": "error",
           "message": {
             "text": "Package: libzstd1\nInstalled Version: 1.4.8+dfsg-2.1\nVulnerability CVE-2022-4899\nSeverity: HIGH\nFixed Version: \nLink: [CVE-2022-4899](https://avd.aquasec.com/nvd/cve-2022-4899)"
@@ -6195,7 +6276,7 @@
         },
         {
           "ruleId": "CVE-2023-4641",
-          "ruleIndex": 76,
+          "ruleIndex": 77,
           "level": "warning",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2023-4641\nSeverity: MEDIUM\nFixed Version: 1:4.8.1-1+deb11u1\nLink: [CVE-2023-4641](https://avd.aquasec.com/nvd/cve-2023-4641)"
@@ -6222,7 +6303,7 @@
         },
         {
           "ruleId": "CVE-2007-5686",
-          "ruleIndex": 77,
+          "ruleIndex": 78,
           "level": "note",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2007-5686\nSeverity: LOW\nFixed Version: \nLink: [CVE-2007-5686](https://avd.aquasec.com/nvd/cve-2007-5686)"
@@ -6249,7 +6330,7 @@
         },
         {
           "ruleId": "CVE-2013-4235",
-          "ruleIndex": 78,
+          "ruleIndex": 79,
           "level": "note",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2013-4235\nSeverity: LOW\nFixed Version: \nLink: [CVE-2013-4235](https://avd.aquasec.com/nvd/cve-2013-4235)"
@@ -6276,7 +6357,7 @@
         },
         {
           "ruleId": "CVE-2023-29383",
-          "ruleIndex": 79,
+          "ruleIndex": 80,
           "level": "note",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2023-29383\nSeverity: LOW\nFixed Version: 1:4.8.1-1+deb11u1\nLink: [CVE-2023-29383](https://avd.aquasec.com/nvd/cve-2023-29383)"
@@ -6303,7 +6384,7 @@
         },
         {
           "ruleId": "CVE-2024-56433",
-          "ruleIndex": 80,
+          "ruleIndex": 81,
           "level": "note",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2024-56433\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-56433](https://avd.aquasec.com/nvd/cve-2024-56433)"
@@ -6330,7 +6411,7 @@
         },
         {
           "ruleId": "TEMP-0628843-DBAD28",
-          "ruleIndex": 81,
+          "ruleIndex": 82,
           "level": "note",
           "message": {
             "text": "Package: login\nInstalled Version: 1:4.8.1-1\nVulnerability TEMP-0628843-DBAD28\nSeverity: LOW\nFixed Version: \nLink: [TEMP-0628843-DBAD28](https://security-tracker.debian.org/tracker/TEMP-0628843-DBAD28)"
@@ -6438,7 +6519,7 @@
         },
         {
           "ruleId": "CVE-2023-50495",
-          "ruleIndex": 73,
+          "ruleIndex": 74,
           "level": "warning",
           "message": {
             "text": "Package: ncurses-base\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2023-50495\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-50495](https://avd.aquasec.com/nvd/cve-2023-50495)"
@@ -6465,7 +6546,7 @@
         },
         {
           "ruleId": "CVE-2025-6141",
-          "ruleIndex": 74,
+          "ruleIndex": 75,
           "level": "note",
           "message": {
             "text": "Package: ncurses-base\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2025-6141\nSeverity: LOW\nFixed Version: \nLink: [CVE-2025-6141](https://avd.aquasec.com/nvd/cve-2025-6141)"
@@ -6492,7 +6573,7 @@
         },
         {
           "ruleId": "CVE-2023-50495",
-          "ruleIndex": 73,
+          "ruleIndex": 74,
           "level": "warning",
           "message": {
             "text": "Package: ncurses-bin\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2023-50495\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2023-50495](https://avd.aquasec.com/nvd/cve-2023-50495)"
@@ -6519,7 +6600,7 @@
         },
         {
           "ruleId": "CVE-2025-6141",
-          "ruleIndex": 74,
+          "ruleIndex": 75,
           "level": "note",
           "message": {
             "text": "Package: ncurses-bin\nInstalled Version: 6.2+20201114-2+deb11u2\nVulnerability CVE-2025-6141\nSeverity: LOW\nFixed Version: \nLink: [CVE-2025-6141](https://avd.aquasec.com/nvd/cve-2025-6141)"
@@ -6546,7 +6627,7 @@
         },
         {
           "ruleId": "CVE-2023-4641",
-          "ruleIndex": 76,
+          "ruleIndex": 77,
           "level": "warning",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2023-4641\nSeverity: MEDIUM\nFixed Version: 1:4.8.1-1+deb11u1\nLink: [CVE-2023-4641](https://avd.aquasec.com/nvd/cve-2023-4641)"
@@ -6573,7 +6654,7 @@
         },
         {
           "ruleId": "CVE-2007-5686",
-          "ruleIndex": 77,
+          "ruleIndex": 78,
           "level": "note",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2007-5686\nSeverity: LOW\nFixed Version: \nLink: [CVE-2007-5686](https://avd.aquasec.com/nvd/cve-2007-5686)"
@@ -6600,7 +6681,7 @@
         },
         {
           "ruleId": "CVE-2013-4235",
-          "ruleIndex": 78,
+          "ruleIndex": 79,
           "level": "note",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2013-4235\nSeverity: LOW\nFixed Version: \nLink: [CVE-2013-4235](https://avd.aquasec.com/nvd/cve-2013-4235)"
@@ -6627,7 +6708,7 @@
         },
         {
           "ruleId": "CVE-2023-29383",
-          "ruleIndex": 79,
+          "ruleIndex": 80,
           "level": "note",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2023-29383\nSeverity: LOW\nFixed Version: 1:4.8.1-1+deb11u1\nLink: [CVE-2023-29383](https://avd.aquasec.com/nvd/cve-2023-29383)"
@@ -6654,7 +6735,7 @@
         },
         {
           "ruleId": "CVE-2024-56433",
-          "ruleIndex": 80,
+          "ruleIndex": 81,
           "level": "note",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability CVE-2024-56433\nSeverity: LOW\nFixed Version: \nLink: [CVE-2024-56433](https://avd.aquasec.com/nvd/cve-2024-56433)"
@@ -6681,7 +6762,7 @@
         },
         {
           "ruleId": "TEMP-0628843-DBAD28",
-          "ruleIndex": 81,
+          "ruleIndex": 82,
           "level": "note",
           "message": {
             "text": "Package: passwd\nInstalled Version: 1:4.8.1-1\nVulnerability TEMP-0628843-DBAD28\nSeverity: LOW\nFixed Version: \nLink: [TEMP-0628843-DBAD28](https://security-tracker.debian.org/tracker/TEMP-0628843-DBAD28)"
@@ -6708,7 +6789,7 @@
         },
         {
           "ruleId": "CVE-2020-16156",
-          "ruleIndex": 82,
+          "ruleIndex": 83,
           "level": "error",
           "message": {
             "text": "Package: perl-base\nInstalled Version: 5.32.1-4+deb11u3\nVulnerability CVE-2020-16156\nSeverity: HIGH\nFixed Version: 5.32.1-4+deb11u4\nLink: [CVE-2020-16156](https://avd.aquasec.com/nvd/cve-2020-16156)"
@@ -6735,7 +6816,7 @@
         },
         {
           "ruleId": "CVE-2023-31484",
-          "ruleIndex": 83,
+          "ruleIndex": 84,
           "level": "error",
           "message": {
             "text": "Package: perl-base\nInstalled Version: 5.32.1-4+deb11u3\nVulnerability CVE-2023-31484\nSeverity: HIGH\nFixed Version: 5.32.1-4+deb11u4\nLink: [CVE-2023-31484](https://avd.aquasec.com/nvd/cve-2023-31484)"
@@ -6762,7 +6843,7 @@
         },
         {
           "ruleId": "CVE-2025-40909",
-          "ruleIndex": 84,
+          "ruleIndex": 85,
           "level": "warning",
           "message": {
             "text": "Package: perl-base\nInstalled Version: 5.32.1-4+deb11u3\nVulnerability CVE-2025-40909\nSeverity: MEDIUM\nFixed Version: \nLink: [CVE-2025-40909](https://avd.aquasec.com/nvd/cve-2025-40909)"
@@ -6789,7 +6870,7 @@
         },
         {
           "ruleId": "CVE-2011-4116",
-          "ruleIndex": 85,
+          "ruleIndex": 86,
           "level": "note",
           "message": {
             "text": "Package: perl-base\nInstalled Version: 5.32.1-4+deb11u3\nVulnerability CVE-2011-4116\nSeverity: LOW\nFixed Version: \nLink: [CVE-2011-4116](https://avd.aquasec.com/nvd/cve-2011-4116)"
@@ -6816,7 +6897,7 @@
         },
         {
           "ruleId": "CVE-2023-31486",
-          "ruleIndex": 86,
+          "ruleIndex": 87,
           "level": "note",
           "message": {
             "text": "Package: perl-base\nInstalled Version: 5.32.1-4+deb11u3\nVulnerability CVE-2023-31486\nSeverity: LOW\nFixed Version: \nLink: [CVE-2023-31486](https://avd.aquasec.com/nvd/cve-2023-31486)"
@@ -6843,7 +6924,7 @@
         },
         {
           "ruleId": "TEMP-0517018-A83CE6",
-          "ruleIndex": 87,
+          "ruleIndex": 88,
           "level": "note",
           "message": {
             "text": "Package: sysvinit-utils\nInstalled Version: 2.96-7+deb11u1\nVulnerability TEMP-0517018-A83CE6\nSeverity: LOW\nFixed Version: \nLink: [TEMP-0517018-A83CE6](https://security-tracker.debian.org/tracker/TEMP-0517018-A83CE6)"
@@ -6870,7 +6951,7 @@
         },
         {
           "ruleId": "CVE-2005-2541",
-          "ruleIndex": 88,
+          "ruleIndex": 89,
           "level": "note",
           "message": {
             "text": "Package: tar\nInstalled Version: 1.34+dfsg-1+deb11u1\nVulnerability CVE-2005-2541\nSeverity: LOW\nFixed Version: \nLink: [CVE-2005-2541](https://avd.aquasec.com/nvd/cve-2005-2541)"
@@ -6897,7 +6978,7 @@
         },
         {
           "ruleId": "TEMP-0290435-0B57B5",
-          "ruleIndex": 89,
+          "ruleIndex": 90,
           "level": "note",
           "message": {
             "text": "Package: tar\nInstalled Version: 1.34+dfsg-1+deb11u1\nVulnerability TEMP-0290435-0B57B5\nSeverity: LOW\nFixed Version: \nLink: [TEMP-0290435-0B57B5](https://security-tracker.debian.org/tracker/TEMP-0290435-0B57B5)"
@@ -6924,7 +7005,7 @@
         },
         {
           "ruleId": "DLA-3972-1",
-          "ruleIndex": 90,
+          "ruleIndex": 91,
           "level": "note",
           "message": {
             "text": "Package: tzdata\nInstalled Version: 2024a-0+deb11u1\nVulnerability DLA-3972-1\nSeverity: UNKNOWN\nFixed Version: 2024b-0+deb11u1\nLink: [DLA-3972-1]()"
@@ -6951,7 +7032,7 @@
         },
         {
           "ruleId": "DLA-4085-1",
-          "ruleIndex": 91,
+          "ruleIndex": 92,
           "level": "note",
           "message": {
             "text": "Package: tzdata\nInstalled Version: 2024a-0+deb11u1\nVulnerability DLA-4085-1\nSeverity: UNKNOWN\nFixed Version: 2025a-0+deb11u1\nLink: [DLA-4085-1]()"
@@ -6978,7 +7059,7 @@
         },
         {
           "ruleId": "DLA-4105-1",
-          "ruleIndex": 92,
+          "ruleIndex": 93,
           "level": "note",
           "message": {
             "text": "Package: tzdata\nInstalled Version: 2024a-0+deb11u1\nVulnerability DLA-4105-1\nSeverity: UNKNOWN\nFixed Version: 2025b-0+deb11u1\nLink: [DLA-4105-1]()"
@@ -7005,7 +7086,7 @@
         },
         {
           "ruleId": "DLA-4403-1",
-          "ruleIndex": 93,
+          "ruleIndex": 94,
           "level": "note",
           "message": {
             "text": "Package: tzdata\nInstalled Version: 2024a-0+deb11u1\nVulnerability DLA-4403-1\nSeverity: UNKNOWN\nFixed Version: 2025b-0+deb11u2\nLink: [DLA-4403-1]()"
@@ -7086,7 +7167,7 @@
         },
         {
           "ruleId": "CVE-2023-45853",
-          "ruleIndex": 94,
+          "ruleIndex": 95,
           "level": "error",
           "message": {
             "text": "Package: zlib1g\nInstalled Version: 1:1.2.11.dfsg-2+deb11u2\nVulnerability CVE-2023-45853\nSeverity: CRITICAL\nFixed Version: \nLink: [CVE-2023-45853](https://avd.aquasec.com/nvd/cve-2023-45853)"
