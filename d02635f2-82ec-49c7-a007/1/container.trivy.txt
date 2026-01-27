@@ -1,7 +1,7 @@
 
 ghcr.io/zt-iot/ota_code_repo/demo-app:v1 (debian 11.11)
 =======================================================
-Total: 170 (UNKNOWN: 5, LOW: 89, MEDIUM: 53, HIGH: 21, CRITICAL: 2)
+Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
 
 ┌────────────────────┬─────────────────────┬──────────┬──────────────┬─────────────────────────┬───────────────────┬──────────────────────────────────────────────────────────────┐
 │      Library       │    Vulnerability    │ Severity │    Status    │    Installed Version    │   Fixed Version   │                            Title                             │
@@ -95,6 +95,10 @@ Total: 170 (UNKNOWN: 5, LOW: 89, MEDIUM: 53, HIGH: 21, CRITICAL: 2)
 │                    │ CVE-2025-0395       │          │ fixed        │                         │ 2.31-13+deb11u12  │ glibc: buffer overflow in the GNU C Library's assert()       │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-0395                    │
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-15281      │          │ affected     │                         │                   │ glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return    │
+│                    │                     │          │              │                         │                   │ uninitialized memory                                         │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-15281                   │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-8058       │          │ fix_deferred │                         │                   │ glibc: Double free in glibc                                  │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-8058                    │
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
@@ -143,6 +147,10 @@ Total: 170 (UNKNOWN: 5, LOW: 89, MEDIUM: 53, HIGH: 21, CRITICAL: 2)
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-0395       │          │ fixed        │                         │ 2.31-13+deb11u12  │ glibc: buffer overflow in the GNU C Library's assert()       │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-0395                    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-15281      │          │ affected     │                         │                   │ glibc: wordexp with WRDE_REUSE and WRDE_APPEND may return    │
+│                    │                     │          │              │                         │                   │ uninitialized memory                                         │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-15281                   │
 │                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-8058       │          │ fix_deferred │                         │                   │ glibc: Double free in glibc                                  │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-8058                    │
