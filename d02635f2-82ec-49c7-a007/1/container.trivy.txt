@@ -1,7 +1,7 @@
 
 ghcr.io/zt-iot/ota_code_repo/demo-app:v1 (debian 11.11)
 =======================================================
-Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
+Total: 181 (UNKNOWN: 4, LOW: 90, MEDIUM: 62, HIGH: 23, CRITICAL: 2)
 
 ┌────────────────────┬─────────────────────┬──────────┬──────────────┬─────────────────────────┬───────────────────┬──────────────────────────────────────────────────────────────┐
 │      Library       │    Vulnerability    │ Severity │    Status    │    Installed Version    │   Fixed Version   │                            Title                             │
@@ -54,18 +54,26 @@ Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
 │ gpgv               │ CVE-2025-68973      │ HIGH     │ fixed        │ 2.2.27-2+deb11u2        │ 2.2.27-2+deb11u3  │ GnuPG: GnuPG: Information disclosure and potential arbitrary │
 │                    │                     │          │              │                         │                   │ code execution via out-of-bounds write...                    │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-68973                   │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-24882      │          │ affected     │                         │                   │ GnuPG: GnuPG: Stack-based buffer overflow in tpm2daemon      │
+│                    │                     │          │              │                         │                   │ allows arbitrary code execution                              │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-24882                   │
 │                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2025-30258      │ MEDIUM   │ fix_deferred │                         │                   │ gnupg: verification DoS due to a malicious subkey in the     │
 │                    │                     │          │              │                         │                   │ keyring                                                      │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-30258                   │
-│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2025-68972      │          │ affected     │                         │                   │ gnupg: GnuPG: Signature bypass via form feed character in    │
+│                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-68972      │          │              │                         │                   │ gnupg: GnuPG: Signature bypass via form feed character in    │
 │                    │                     │          │              │                         │                   │ signed messages                                              │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-68972                   │
-│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2022-3219       │ LOW      │              │                         │                   │ gnupg: denial of service issue (resource consumption) using  │
+│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2022-3219       │ LOW      │ affected     │                         │                   │ gnupg: denial of service issue (resource consumption) using  │
 │                    │                     │          │              │                         │                   │ compressed packets                                           │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2022-3219                    │
+│                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-24883      │          │              │                         │                   │ GnuPG: GnuPG: Denial of service due to specially crafted     │
+│                    │                     │          │              │                         │                   │ signature packet                                             │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-24883                   │
 ├────────────────────┼─────────────────────┤          │              ├─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
 │ libapt-pkg6.0      │ CVE-2011-3374       │          │              │ 2.2.4                   │                   │ It was found that apt-key in apt, all versions, do not       │
 │                    │                     │          │              │                         │                   │ correctly...                                                 │
@@ -222,13 +230,14 @@ Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
 │                    │ CVE-2025-6395       │          │              │                         │ 3.7.1-5+deb11u8   │ gnutls: NULL pointer dereference in                          │
 │                    │                     │          │              │                         │                   │ _gnutls_figure_common_ciphersuite()                          │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-6395                    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-9820       │          │ fix_deferred │                         │                   │ gnutls: Stack-based Buffer Overflow in                       │
+│                    │                     │          │              │                         │                   │ gnutls_pkcs11_token_init() Function                          │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-9820                    │
 │                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2011-3389       │ LOW      │ affected     │                         │                   │ HTTPS: block-wise chosen-plaintext attack against SSL/TLS    │
 │                    │                     │          │              │                         │                   │ (BEAST)                                                      │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2011-3389                    │
-│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2025-9820       │ UNKNOWN  │ fix_deferred │                         │                   │ [GNUTLS-SA-2025-11-18]                                       │
-│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-9820                    │
 ├────────────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
 │ libgssapi-krb5-2   │ CVE-2025-24528      │ MEDIUM   │ fixed        │ 1.18.3-6+deb11u5        │ 1.18.3-6+deb11u6  │ krb5: overflow when calculating ulog block size              │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-24528                   │
@@ -392,8 +401,12 @@ Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
 ├────────────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
 │ libss2             │ CVE-2022-1304       │ HIGH     │ fixed        │ 1.46.2-2                │ 1.46.2-2+deb11u1  │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
-├────────────────────┼─────────────────────┼──────────┤              ├─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
-│ libssl1.1          │ CVE-2023-5678       │ MEDIUM   │              │ 1.1.1w-0+deb11u1        │ 1.1.1w-0+deb11u2  │ openssl: Generating excessively long X9.42 DH keys or        │
+├────────────────────┼─────────────────────┤          ├──────────────┼─────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────┤
+│ libssl1.1          │ CVE-2025-69419      │          │ affected     │ 1.1.1w-0+deb11u1        │                   │ openssl: OpenSSL: Arbitrary code execution due to            │
+│                    │                     │          │              │                         │                   │ out-of-bounds write in PKCS#12 processing...                 │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-69419                   │
+│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2023-5678       │ MEDIUM   │ fixed        │                         │ 1.1.1w-0+deb11u2  │ openssl: Generating excessively long X9.42 DH keys or        │
 │                    │                     │          │              │                         │                   │ checking excessively long X9.42...                           │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2023-5678                    │
 │                    ├─────────────────────┤          │              │                         │                   ├──────────────────────────────────────────────────────────────┤
@@ -408,11 +421,35 @@ Total: 172 (UNKNOWN: 5, LOW: 89, MEDIUM: 55, HIGH: 21, CRITICAL: 2)
 │                    ├─────────────────────┤          │              │                         │                   ├──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2024-5535       │          │              │                         │                   │ openssl: SSL_select_next_proto buffer overread               │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2024-5535                    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-68160      │          │ affected     │                         │                   │ openssl: OpenSSL: Denial of Service due to out-of-bounds     │
+│                    │                     │          │              │                         │                   │ write in BIO filter...                                       │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-68160                   │
 │                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2025-9230       │          │              │                         │ 1.1.1w-0+deb11u4  │ openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap   │
+│                    │ CVE-2025-69418      │          │              │                         │                   │ openssl: OpenSSL: Information disclosure and data tampering  │
+│                    │                     │          │              │                         │                   │ via specific low-level OCB encryption/decryption...          │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-69418                   │
+│                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-69420      │          │              │                         │                   │ openssl: OpenSSL: Denial of Service via malformed TimeStamp  │
+│                    │                     │          │              │                         │                   │ Response                                                     │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-69420                   │
+│                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-69421      │          │              │                         │                   │ openssl: OpenSSL: Denial of Service via malformed PKCS#12    │
+│                    │                     │          │              │                         │                   │ file processing                                              │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-69421                   │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2025-9230       │          │ fixed        │                         │ 1.1.1w-0+deb11u4  │ openssl: Out-of-bounds read & write in RFC 3211 KEK Unwrap   │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2025-9230                    │
-│                    ├─────────────────────┼──────────┤              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
-│                    │ CVE-2024-2511       │ LOW      │              │                         │ 1.1.1w-0+deb11u2  │ openssl: Unbounded memory growth with session handling in    │
+│                    ├─────────────────────┤          ├──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-22795      │          │ affected     │                         │                   │ openssl: OpenSSL: Denial of Service due to type confusion in │
+│                    │                     │          │              │                         │                   │ PKCS#12 file...                                              │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-22795                   │
+│                    ├─────────────────────┤          │              │                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2026-22796      │          │              │                         │                   │ openssl: OpenSSL: Denial of Service via type confusion in    │
+│                    │                     │          │              │                         │                   │ PKCS#7 signature verification...                             │
+│                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2026-22796                   │
+│                    ├─────────────────────┼──────────┼──────────────┤                         ├───────────────────┼──────────────────────────────────────────────────────────────┤
+│                    │ CVE-2024-2511       │ LOW      │ fixed        │                         │ 1.1.1w-0+deb11u2  │ openssl: Unbounded memory growth with session handling in    │
 │                    │                     │          │              │                         │                   │ TLSv1.3                                                      │
 │                    │                     │          │              │                         │                   │ https://avd.aquasec.com/nvd/cve-2024-2511                    │
 │                    ├─────────────────────┤          │              │                         │                   ├──────────────────────────────────────────────────────────────┤
