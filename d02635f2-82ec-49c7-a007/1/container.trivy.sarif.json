@@ -3007,7 +3007,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3018,7 +3018,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: apt@2.2.4"
+                "text": "library/sbom.json: apt@2.2.4"
               }
             }
           ]
@@ -3034,7 +3034,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3045,7 +3045,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: bash@5.1-2+deb11u1"
+                "text": "library/sbom.json: bash@5.1-2+deb11u1"
               }
             }
           ]
@@ -3061,7 +3061,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3072,7 +3072,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: bash@5.1-2+deb11u1"
+                "text": "library/sbom.json: bash@5.1-2+deb11u1"
               }
             }
           ]
@@ -3088,7 +3088,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3099,7 +3099,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: bsdutils@1:2.36.1-8+deb11u2"
+                "text": "library/sbom.json: bsdutils@1:2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3115,7 +3115,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3126,7 +3126,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: bsdutils@1:2.36.1-8+deb11u2"
+                "text": "library/sbom.json: bsdutils@1:2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3142,7 +3142,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3153,7 +3153,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: bsdutils@1:2.36.1-8+deb11u2"
+                "text": "library/sbom.json: bsdutils@1:2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3169,7 +3169,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3180,7 +3180,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: coreutils@8.32-4"
+                "text": "library/sbom.json: coreutils@8.32-4"
               }
             }
           ]
@@ -3196,7 +3196,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3207,7 +3207,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: coreutils@8.32-4"
+                "text": "library/sbom.json: coreutils@8.32-4"
               }
             }
           ]
@@ -3223,7 +3223,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3234,7 +3234,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: coreutils@8.32-4"
+                "text": "library/sbom.json: coreutils@8.32-4"
               }
             }
           ]
@@ -3250,7 +3250,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3261,7 +3261,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: dpkg@1.20.13"
+                "text": "library/sbom.json: dpkg@1.20.13"
               }
             }
           ]
@@ -3277,7 +3277,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3288,7 +3288,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: e2fsprogs@1.46.2-2"
+                "text": "library/sbom.json: e2fsprogs@1.46.2-2"
               }
             }
           ]
@@ -3304,7 +3304,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3315,7 +3315,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gcc-10-base@10.2.1-6"
+                "text": "library/sbom.json: gcc-10-base@10.2.1-6"
               }
             }
           ]
@@ -3331,7 +3331,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3342,7 +3342,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gcc-9-base@9.3.0-22"
+                "text": "library/sbom.json: gcc-9-base@9.3.0-22"
               }
             }
           ]
@@ -3358,7 +3358,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3369,7 +3369,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gpgv@2.2.27-2+deb11u2"
+                "text": "library/sbom.json: gpgv@2.2.27-2+deb11u2"
               }
             }
           ]
@@ -3385,7 +3385,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3396,7 +3396,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gpgv@2.2.27-2+deb11u2"
+                "text": "library/sbom.json: gpgv@2.2.27-2+deb11u2"
               }
             }
           ]
@@ -3412,7 +3412,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3423,7 +3423,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gpgv@2.2.27-2+deb11u2"
+                "text": "library/sbom.json: gpgv@2.2.27-2+deb11u2"
               }
             }
           ]
@@ -3439,7 +3439,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3450,7 +3450,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: gpgv@2.2.27-2+deb11u2"
+                "text": "library/sbom.json: gpgv@2.2.27-2+deb11u2"
               }
             }
           ]
@@ -3466,7 +3466,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3477,7 +3477,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libapt-pkg6.0@2.2.4"
+                "text": "library/sbom.json: libapt-pkg6.0@2.2.4"
               }
             }
           ]
@@ -3493,7 +3493,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3504,7 +3504,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libblkid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libblkid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3520,7 +3520,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3531,7 +3531,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libblkid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libblkid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3547,7 +3547,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3558,7 +3558,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libblkid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libblkid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -3574,7 +3574,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3585,7 +3585,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3601,7 +3601,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3612,7 +3612,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3628,7 +3628,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3639,7 +3639,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3655,7 +3655,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3666,7 +3666,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3682,7 +3682,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3693,7 +3693,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3709,7 +3709,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3720,7 +3720,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3736,7 +3736,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3747,7 +3747,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3763,7 +3763,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3774,7 +3774,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3790,7 +3790,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3801,7 +3801,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3817,7 +3817,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3828,7 +3828,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3844,7 +3844,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3855,7 +3855,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3871,7 +3871,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3882,7 +3882,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3898,7 +3898,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3909,7 +3909,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3925,7 +3925,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3936,7 +3936,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3952,7 +3952,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3963,7 +3963,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc-bin@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc-bin@2.31-13+deb11u11"
               }
             }
           ]
@@ -3979,7 +3979,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -3990,7 +3990,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4006,7 +4006,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4017,7 +4017,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4033,7 +4033,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4044,7 +4044,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4060,7 +4060,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4071,7 +4071,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4087,7 +4087,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4098,7 +4098,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4114,7 +4114,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4125,7 +4125,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4141,7 +4141,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4152,7 +4152,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4168,7 +4168,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4179,7 +4179,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4195,7 +4195,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4206,7 +4206,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4222,7 +4222,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4233,7 +4233,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4249,7 +4249,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4260,7 +4260,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4276,7 +4276,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4287,7 +4287,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4303,7 +4303,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4314,7 +4314,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4330,7 +4330,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4341,7 +4341,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4357,7 +4357,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4368,7 +4368,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libc6@2.31-13+deb11u11"
+                "text": "library/sbom.json: libc6@2.31-13+deb11u11"
               }
             }
           ]
@@ -4384,7 +4384,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4395,7 +4395,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libcom-err2@1.46.2-2"
+                "text": "library/sbom.json: libcom-err2@1.46.2-2"
               }
             }
           ]
@@ -4411,7 +4411,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4422,7 +4422,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libdb5.3@5.3.28+dfsg1-0.8"
+                "text": "library/sbom.json: libdb5.3@5.3.28+dfsg1-0.8"
               }
             }
           ]
@@ -4438,7 +4438,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4449,7 +4449,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libext2fs2@1.46.2-2"
+                "text": "library/sbom.json: libext2fs2@1.46.2-2"
               }
             }
           ]
@@ -4465,7 +4465,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4476,7 +4476,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgcc-s1@10.2.1-6"
+                "text": "library/sbom.json: libgcc-s1@10.2.1-6"
               }
             }
           ]
@@ -4492,7 +4492,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4503,7 +4503,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgcrypt20@1.8.7-6"
+                "text": "library/sbom.json: libgcrypt20@1.8.7-6"
               }
             }
           ]
@@ -4519,7 +4519,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4530,7 +4530,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgcrypt20@1.8.7-6"
+                "text": "library/sbom.json: libgcrypt20@1.8.7-6"
               }
             }
           ]
@@ -4546,7 +4546,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4557,7 +4557,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgcrypt20@1.8.7-6"
+                "text": "library/sbom.json: libgcrypt20@1.8.7-6"
               }
             }
           ]
@@ -4573,7 +4573,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4584,7 +4584,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4600,7 +4600,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4611,7 +4611,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4627,7 +4627,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4638,7 +4638,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4654,7 +4654,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4665,7 +4665,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4681,7 +4681,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4692,7 +4692,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4708,7 +4708,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4719,7 +4719,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4735,7 +4735,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4746,7 +4746,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgnutls30@3.7.1-5+deb11u6"
+                "text": "library/sbom.json: libgnutls30@3.7.1-5+deb11u6"
               }
             }
           ]
@@ -4762,7 +4762,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4773,7 +4773,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4789,7 +4789,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4800,7 +4800,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4816,7 +4816,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4827,7 +4827,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4843,7 +4843,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4854,7 +4854,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4870,7 +4870,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4881,7 +4881,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libgssapi-krb5-2@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4897,7 +4897,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4908,7 +4908,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libk5crypto3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libk5crypto3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4924,7 +4924,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4935,7 +4935,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libk5crypto3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libk5crypto3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4951,7 +4951,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4962,7 +4962,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libk5crypto3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libk5crypto3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -4978,7 +4978,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -4989,7 +4989,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libk5crypto3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libk5crypto3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5005,7 +5005,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5016,7 +5016,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libk5crypto3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libk5crypto3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5032,7 +5032,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5043,7 +5043,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5-3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5-3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5059,7 +5059,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5070,7 +5070,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5-3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5-3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5086,7 +5086,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5097,7 +5097,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5-3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5-3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5113,7 +5113,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5124,7 +5124,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5-3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5-3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5140,7 +5140,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5151,7 +5151,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5-3@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5-3@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5167,7 +5167,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5178,7 +5178,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5support0@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5support0@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5194,7 +5194,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5205,7 +5205,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5support0@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5support0@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5221,7 +5221,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5232,7 +5232,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5support0@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5support0@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5248,7 +5248,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5259,7 +5259,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5support0@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5support0@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5275,7 +5275,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5286,7 +5286,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libkrb5support0@1.18.3-6+deb11u5"
+                "text": "library/sbom.json: libkrb5support0@1.18.3-6+deb11u5"
               }
             }
           ]
@@ -5302,7 +5302,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5313,7 +5313,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libmount1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libmount1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -5329,7 +5329,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5340,7 +5340,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libmount1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libmount1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -5356,7 +5356,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5367,7 +5367,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libmount1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libmount1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -5383,7 +5383,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5394,7 +5394,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5410,7 +5410,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5421,7 +5421,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5437,7 +5437,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5448,7 +5448,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5464,7 +5464,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5475,7 +5475,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules-bin@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules-bin@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5491,7 +5491,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5502,7 +5502,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules-bin@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules-bin@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5518,7 +5518,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5529,7 +5529,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-modules-bin@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-modules-bin@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5545,7 +5545,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5556,7 +5556,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-runtime@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-runtime@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5572,7 +5572,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5583,7 +5583,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-runtime@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-runtime@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5599,7 +5599,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5610,7 +5610,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam-runtime@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam-runtime@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5626,7 +5626,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5637,7 +5637,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam0g@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam0g@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5653,7 +5653,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5664,7 +5664,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam0g@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam0g@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5680,7 +5680,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5691,7 +5691,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpam0g@1.4.0-9+deb11u1"
+                "text": "library/sbom.json: libpam0g@1.4.0-9+deb11u1"
               }
             }
           ]
@@ -5707,7 +5707,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5718,7 +5718,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre2-8-0@10.36-2+deb11u1"
+                "text": "library/sbom.json: libpcre2-8-0@10.36-2+deb11u1"
               }
             }
           ]
@@ -5734,7 +5734,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5745,7 +5745,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre3@2:8.39-13"
+                "text": "library/sbom.json: libpcre3@2:8.39-13"
               }
             }
           ]
@@ -5761,7 +5761,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5772,7 +5772,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre3@2:8.39-13"
+                "text": "library/sbom.json: libpcre3@2:8.39-13"
               }
             }
           ]
@@ -5788,7 +5788,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5799,7 +5799,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre3@2:8.39-13"
+                "text": "library/sbom.json: libpcre3@2:8.39-13"
               }
             }
           ]
@@ -5815,7 +5815,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5826,7 +5826,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre3@2:8.39-13"
+                "text": "library/sbom.json: libpcre3@2:8.39-13"
               }
             }
           ]
@@ -5842,7 +5842,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5853,7 +5853,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libpcre3@2:8.39-13"
+                "text": "library/sbom.json: libpcre3@2:8.39-13"
               }
             }
           ]
@@ -5869,7 +5869,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5880,7 +5880,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsepol1@3.1-1"
+                "text": "library/sbom.json: libsepol1@3.1-1"
               }
             }
           ]
@@ -5896,7 +5896,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5907,7 +5907,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsepol1@3.1-1"
+                "text": "library/sbom.json: libsepol1@3.1-1"
               }
             }
           ]
@@ -5923,7 +5923,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5934,7 +5934,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsepol1@3.1-1"
+                "text": "library/sbom.json: libsepol1@3.1-1"
               }
             }
           ]
@@ -5950,7 +5950,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5961,7 +5961,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsepol1@3.1-1"
+                "text": "library/sbom.json: libsepol1@3.1-1"
               }
             }
           ]
@@ -5977,7 +5977,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -5988,7 +5988,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsmartcols1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libsmartcols1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -6004,7 +6004,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6015,7 +6015,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsmartcols1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libsmartcols1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -6031,7 +6031,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6042,7 +6042,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsmartcols1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libsmartcols1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -6058,7 +6058,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6069,7 +6069,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libss2@1.46.2-2"
+                "text": "library/sbom.json: libss2@1.46.2-2"
               }
             }
           ]
@@ -6085,7 +6085,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6096,7 +6096,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6112,7 +6112,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6123,7 +6123,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6139,7 +6139,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6150,7 +6150,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6166,7 +6166,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6177,7 +6177,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6193,7 +6193,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6204,7 +6204,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6220,7 +6220,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6231,7 +6231,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6247,7 +6247,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6258,7 +6258,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6274,7 +6274,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6285,7 +6285,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6301,7 +6301,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6312,7 +6312,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6328,7 +6328,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6339,7 +6339,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6355,7 +6355,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6366,7 +6366,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6382,7 +6382,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6393,7 +6393,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6409,7 +6409,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6420,7 +6420,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6436,7 +6436,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6447,7 +6447,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6463,7 +6463,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6474,7 +6474,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6490,7 +6490,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6501,7 +6501,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libssl1.1@1.1.1w-0+deb11u1"
+                "text": "library/sbom.json: libssl1.1@1.1.1w-0+deb11u1"
               }
             }
           ]
@@ -6517,7 +6517,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6528,7 +6528,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libstdc++6@10.2.1-6"
+                "text": "library/sbom.json: libstdc++6@10.2.1-6"
               }
             }
           ]
@@ -6544,7 +6544,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6555,7 +6555,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6571,7 +6571,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6582,7 +6582,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6598,7 +6598,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6609,7 +6609,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6625,7 +6625,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6636,7 +6636,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6652,7 +6652,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6663,7 +6663,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6679,7 +6679,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6690,7 +6690,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6706,7 +6706,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6717,7 +6717,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libsystemd0@247.3-7+deb11u6"
+                "text": "library/sbom.json: libsystemd0@247.3-7+deb11u6"
               }
             }
           ]
@@ -6733,7 +6733,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6744,7 +6744,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libtasn1-6@4.16.0-2+deb11u1"
+                "text": "library/sbom.json: libtasn1-6@4.16.0-2+deb11u1"
               }
             }
           ]
@@ -6760,7 +6760,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6771,7 +6771,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libtasn1-6@4.16.0-2+deb11u1"
+                "text": "library/sbom.json: libtasn1-6@4.16.0-2+deb11u1"
               }
             }
           ]
@@ -6787,7 +6787,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6798,7 +6798,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libtinfo6@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: libtinfo6@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -6814,7 +6814,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6825,7 +6825,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libtinfo6@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: libtinfo6@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -6841,7 +6841,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6852,7 +6852,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -6868,7 +6868,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6879,7 +6879,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -6895,7 +6895,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6906,7 +6906,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -6922,7 +6922,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6933,7 +6933,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -6949,7 +6949,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6960,7 +6960,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -6976,7 +6976,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -6987,7 +6987,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -7003,7 +7003,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7014,7 +7014,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libudev1@247.3-7+deb11u6"
+                "text": "library/sbom.json: libudev1@247.3-7+deb11u6"
               }
             }
           ]
@@ -7030,7 +7030,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7041,7 +7041,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libuuid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libuuid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7057,7 +7057,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7068,7 +7068,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libuuid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libuuid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7084,7 +7084,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7095,7 +7095,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libuuid1@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: libuuid1@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7111,7 +7111,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7122,7 +7122,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: libzstd1@1.4.8+dfsg-2.1"
+                "text": "library/sbom.json: libzstd1@1.4.8+dfsg-2.1"
               }
             }
           ]
@@ -7138,7 +7138,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7149,7 +7149,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7165,7 +7165,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7176,7 +7176,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7192,7 +7192,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7203,7 +7203,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7219,7 +7219,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7230,7 +7230,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7246,7 +7246,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7257,7 +7257,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7273,7 +7273,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7284,7 +7284,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: login@1:4.8.1-1"
+                "text": "library/sbom.json: login@1:4.8.1-1"
               }
             }
           ]
@@ -7300,7 +7300,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7311,7 +7311,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: logsave@1.46.2-2"
+                "text": "library/sbom.json: logsave@1.46.2-2"
               }
             }
           ]
@@ -7327,7 +7327,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7338,7 +7338,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: mount@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: mount@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7354,7 +7354,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7365,7 +7365,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: mount@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: mount@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7381,7 +7381,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7392,7 +7392,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: mount@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: mount@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -7408,7 +7408,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7419,7 +7419,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: ncurses-base@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: ncurses-base@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -7435,7 +7435,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7446,7 +7446,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: ncurses-base@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: ncurses-base@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -7462,7 +7462,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7473,7 +7473,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: ncurses-bin@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: ncurses-bin@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -7489,7 +7489,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7500,7 +7500,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: ncurses-bin@6.2+20201114-2+deb11u2"
+                "text": "library/sbom.json: ncurses-bin@6.2+20201114-2+deb11u2"
               }
             }
           ]
@@ -7516,7 +7516,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7527,7 +7527,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7543,7 +7543,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7554,7 +7554,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7570,7 +7570,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7581,7 +7581,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7597,7 +7597,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7608,7 +7608,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7624,7 +7624,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7635,7 +7635,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7651,7 +7651,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7662,7 +7662,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: passwd@1:4.8.1-1"
+                "text": "library/sbom.json: passwd@1:4.8.1-1"
               }
             }
           ]
@@ -7678,7 +7678,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7689,7 +7689,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: perl-base@5.32.1-4+deb11u3"
+                "text": "library/sbom.json: perl-base@5.32.1-4+deb11u3"
               }
             }
           ]
@@ -7705,7 +7705,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7716,7 +7716,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: perl-base@5.32.1-4+deb11u3"
+                "text": "library/sbom.json: perl-base@5.32.1-4+deb11u3"
               }
             }
           ]
@@ -7732,7 +7732,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7743,7 +7743,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: perl-base@5.32.1-4+deb11u3"
+                "text": "library/sbom.json: perl-base@5.32.1-4+deb11u3"
               }
             }
           ]
@@ -7759,7 +7759,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7770,7 +7770,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: perl-base@5.32.1-4+deb11u3"
+                "text": "library/sbom.json: perl-base@5.32.1-4+deb11u3"
               }
             }
           ]
@@ -7786,7 +7786,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7797,7 +7797,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: perl-base@5.32.1-4+deb11u3"
+                "text": "library/sbom.json: perl-base@5.32.1-4+deb11u3"
               }
             }
           ]
@@ -7813,7 +7813,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7824,7 +7824,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: sysvinit-utils@2.96-7+deb11u1"
+                "text": "library/sbom.json: sysvinit-utils@2.96-7+deb11u1"
               }
             }
           ]
@@ -7840,7 +7840,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7851,7 +7851,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tar@1.34+dfsg-1+deb11u1"
+                "text": "library/sbom.json: tar@1.34+dfsg-1+deb11u1"
               }
             }
           ]
@@ -7867,7 +7867,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7878,7 +7878,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tar@1.34+dfsg-1+deb11u1"
+                "text": "library/sbom.json: tar@1.34+dfsg-1+deb11u1"
               }
             }
           ]
@@ -7894,7 +7894,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7905,7 +7905,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tzdata@2024a-0+deb11u1"
+                "text": "library/sbom.json: tzdata@2024a-0+deb11u1"
               }
             }
           ]
@@ -7921,7 +7921,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7932,7 +7932,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tzdata@2024a-0+deb11u1"
+                "text": "library/sbom.json: tzdata@2024a-0+deb11u1"
               }
             }
           ]
@@ -7948,7 +7948,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7959,7 +7959,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tzdata@2024a-0+deb11u1"
+                "text": "library/sbom.json: tzdata@2024a-0+deb11u1"
               }
             }
           ]
@@ -7975,7 +7975,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -7986,7 +7986,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: tzdata@2024a-0+deb11u1"
+                "text": "library/sbom.json: tzdata@2024a-0+deb11u1"
               }
             }
           ]
@@ -8002,7 +8002,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -8013,7 +8013,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: util-linux@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: util-linux@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -8029,7 +8029,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -8040,7 +8040,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: util-linux@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: util-linux@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -8056,7 +8056,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -8067,7 +8067,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: util-linux@2.36.1-8+deb11u2"
+                "text": "library/sbom.json: util-linux@2.36.1-8+deb11u2"
               }
             }
           ]
@@ -8083,7 +8083,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -8094,7 +8094,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: zlib1g@1:1.2.11.dfsg-2+deb11u2"
+                "text": "library/sbom.json: zlib1g@1:1.2.11.dfsg-2+deb11u2"
               }
             }
           ]
@@ -8110,7 +8110,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json",
+                  "uri": "library/sbom.json",
                   "uriBaseId": "ROOTPATH"
                 },
                 "region": {
@@ -8121,7 +8121,7 @@
                 }
               },
               "message": {
-                "text": "/usr/src/verification_s/src/key/test_vs/d02635f2-82ec-49c7-a007/1/sbom.trivy.cdx.json: zlib1g@1:1.2.11.dfsg-2+deb11u2"
+                "text": "library/sbom.json: zlib1g@1:1.2.11.dfsg-2+deb11u2"
               }
             }
           ]
