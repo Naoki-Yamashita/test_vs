@@ -1,0 +1,96 @@
+
+Report Summary
+
+┌───────────────────────┬────────┬─────────────────┐
+│        Target         │  Type  │ Vulnerabilities │
+├───────────────────────┼────────┼─────────────────┤
+│ sbom.json (debian 11) │ debian │       22        │
+└───────────────────────┴────────┴─────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+sbom.json (debian 11)
+=====================
+Total: 22 (UNKNOWN: 4, LOW: 13, MEDIUM: 2, HIGH: 3, CRITICAL: 0)
+
+┌─────────────┬─────────────────────┬──────────┬──────────────┬─────────────────────┬──────────────────┬──────────────────────────────────────────────────────────────┐
+│   Library   │    Vulnerability    │ Severity │    Status    │  Installed Version  │  Fixed Version   │                            Title                             │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ apt         │ CVE-2011-3374       │ LOW      │ affected     │ 2.2.4               │                  │ It was found that apt-key in apt, all versions, do not       │
+│             │                     │          │              │                     │                  │ correctly...                                                 │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2011-3374                    │
+├─────────────┼─────────────────────┼──────────┤              ├─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ bash        │ CVE-2022-3715       │ HIGH     │              │ 5.1-2+deb11u1       │                  │ bash: a heap-buffer-overflow in valid_parameter_transform    │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2022-3715                    │
+│             ├─────────────────────┼──────────┤              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ TEMP-0841856-B18BAF │ LOW      │              │                     │                  │ [Privilege escalation possible to other user than root]      │
+│             │                     │          │              │                     │                  │ https://security-tracker.debian.org/tracker/TEMP-0841856-B1- │
+│             │                     │          │              │                     │                  │ 8BAF                                                         │
+├─────────────┼─────────────────────┤          ├──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ coreutils   │ CVE-2016-2781       │          │ will_not_fix │ 8.32-4              │                  │ coreutils: Non-privileged session can escape to the parent   │
+│             │                     │          │              │                     │                  │ session in chroot                                            │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2016-2781                    │
+│             ├─────────────────────┤          ├──────────────┤                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2017-18018      │          │ affected     │                     │                  │ coreutils: race condition vulnerability in chown and chgrp   │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2017-18018                   │
+│             ├─────────────────────┤          │              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2025-5278       │          │              │                     │                  │ coreutils: Heap Buffer Under-Read in GNU Coreutils sort via  │
+│             │                     │          │              │                     │                  │ Key Specification                                            │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2025-5278                    │
+├─────────────┼─────────────────────┤          ├──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ dpkg        │ CVE-2025-6297       │          │ fix_deferred │ 1.20.13             │                  │ It was discovered that dpkg-deb does not properly sanitize   │
+│             │                     │          │              │                     │                  │ directory p ......                                           │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2025-6297                    │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ e2fsprogs   │ CVE-2022-1304       │ HIGH     │ fixed        │ 1.46.2-2            │ 1.46.2-2+deb11u1 │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────┼─────────────────────┤          ├──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ libgcrypt20 │ CVE-2021-33560      │          │ affected     │ 1.8.7-6             │                  │ libgcrypt: mishandles ElGamal encryption because it lacks    │
+│             │                     │          │              │                     │                  │ exponent blinding to address a...                            │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2021-33560                   │
+│             ├─────────────────────┼──────────┤              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2018-6829       │ LOW      │              │                     │                  │ libgcrypt: ElGamal implementation doesn't have semantic      │
+│             │                     │          │              │                     │                  │ security due to incorrectly encoded plaintexts...            │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2018-6829                    │
+│             ├─────────────────────┤          │              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2024-2236       │          │              │                     │                  │ libgcrypt: vulnerable to Marvin Attack                       │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2024-2236                    │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ libtasn1-6  │ CVE-2024-12133      │ MEDIUM   │ fixed        │ 4.16.0-2+deb11u1    │ 4.16.0-2+deb11u2 │ libtasn1: Inefficient DER Decoding in libtasn1 Leading to    │
+│             │                     │          │              │                     │                  │ Potential Remote DoS                                         │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2024-12133                   │
+│             ├─────────────────────┤          ├──────────────┤                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2025-13151      │          │ fix_deferred │                     │                  │ libtasn1: libtasn1: Denial of Service via stack-based buffer │
+│             │                     │          │              │                     │                  │ overflow in asn1_expend_octet_string                         │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2025-13151                   │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ tar         │ CVE-2005-2541       │ LOW      │ affected     │ 1.34+dfsg-1+deb11u1 │                  │ tar: does not properly warn the user when extracting setuid  │
+│             │                     │          │              │                     │                  │ or setgid...                                                 │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2005-2541                    │
+│             ├─────────────────────┤          │              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ TEMP-0290435-0B57B5 │          │              │                     │                  │ [tar's rmt command may have undesired side effects]          │
+│             │                     │          │              │                     │                  │ https://security-tracker.debian.org/tracker/TEMP-0290435-0B- │
+│             │                     │          │              │                     │                  │ 57B5                                                         │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ tzdata      │ DLA-3972-1          │ UNKNOWN  │ fixed        │ 2024a-0+deb11u1     │ 2024b-0+deb11u1  │ tzdata - new timezone database                               │
+│             ├─────────────────────┤          │              │                     ├──────────────────┤                                                              │
+│             │ DLA-4085-1          │          │              │                     │ 2025a-0+deb11u1  │                                                              │
+│             ├─────────────────────┤          │              │                     ├──────────────────┤                                                              │
+│             │ DLA-4105-1          │          │              │                     │ 2025b-0+deb11u1  │                                                              │
+│             ├─────────────────────┤          │              │                     ├──────────────────┤                                                              │
+│             │ DLA-4403-1          │          │              │                     │ 2025b-0+deb11u2  │                                                              │
+├─────────────┼─────────────────────┼──────────┼──────────────┼─────────────────────┼──────────────────┼──────────────────────────────────────────────────────────────┤
+│ util-linux  │ CVE-2022-0563       │ LOW      │ affected     │ 2.36.1-8+deb11u2    │                  │ util-linux: partial disclosure of arbitrary files in chfn    │
+│             │                     │          │              │                     │                  │ and chsh when compiled...                                    │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2022-0563                    │
+│             ├─────────────────────┤          │              │                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2025-14104      │          │              │                     │                  │ util-linux: util-linux: Heap buffer overread in setpwnam()   │
+│             │                     │          │              │                     │                  │ when processing 256-byte usernames                           │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2025-14104                   │
+│             ├─────────────────────┤          ├──────────────┤                     ├──────────────────┼──────────────────────────────────────────────────────────────┤
+│             │ CVE-2026-3184       │          │ will_not_fix │                     │                  │ util-linux: util-linux: Access control bypass due to         │
+│             │                     │          │              │                     │                  │ improper hostname canonicalization                           │
+│             │                     │          │              │                     │                  │ https://avd.aquasec.com/nvd/cve-2026-3184                    │
+└─────────────┴─────────────────────┴──────────┴──────────────┴─────────────────────┴──────────────────┴──────────────────────────────────────────────────────────────┘
