@@ -7,18 +7,28 @@
  Target            │ d02635f2-82ec-49c7-a007__demo-app__sbom.spdx.json
    digest          │  889238ac7a60
    platform        │ linux/
-   vulnerabilities │ 1C    16H    26M    45L     3?
+   vulnerabilities │ 3C    18H    27M    45L     2?
    packages        │ 140
 
 ## Packages and Vulnerabilities
 
-   1C     8H     9M     2L     2?  openssl 1.1.1w-0+deb11u1
+   2C     9H     9M     2L  openssl 1.1.1w-0+deb11u1
 pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
 
+    ✗ CRITICAL CVE-2026-31789
+      https://scout.docker.com/v/CVE-2026-31789?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
     ✗ CRITICAL CVE-2024-5535
       https://scout.docker.com/v/CVE-2024-5535?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3C1.1.1w-0%2Bdeb11u2
       Affected range : <1.1.1w-0+deb11u2 
       Fixed version  : 1.1.1w-0+deb11u2  
+    
+    ✗ HIGH CVE-2026-28387
+      https://scout.docker.com/v/CVE-2026-28387?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
     
     ✗ HIGH CVE-2026-28390
       https://scout.docker.com/v/CVE-2026-28390?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
@@ -115,24 +125,24 @@ pkg:deb/debian/openssl@1.1.1w-0%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_v
       Affected range : >=1.1.1w-0+deb11u1 
       Fixed version  : not fixed          
     
-    ✗ UNSPECIFIED CVE-2026-31789
-      https://scout.docker.com/v/CVE-2026-31789?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
-    ✗ UNSPECIFIED CVE-2026-28387
-      https://scout.docker.com/v/CVE-2026-28387?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
 
-   0C     2H     1M     7L  glibc 2.31-13+deb11u11
+   1C     3H     1M     7L     1?  glibc 2.31-13+deb11u11
 pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_version=11
 
+    ✗ CRITICAL CVE-2026-5450
+      https://scout.docker.com/v/CVE-2026-5450?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
     ✗ HIGH CVE-2025-4802
       https://scout.docker.com/v/CVE-2025-4802?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3C2.31-13%2Bdeb11u13
       Affected range : <2.31-13+deb11u13 
       Fixed version  : 2.31-13+deb11u13  
+    
+    ✗ HIGH CVE-2026-5928
+      https://scout.docker.com/v/CVE-2026-5928?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
     
     ✗ HIGH CVE-2026-4046
       https://scout.docker.com/v/CVE-2026-4046?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
@@ -176,6 +186,11 @@ pkg:deb/debian/glibc@2.31-13%2Bdeb11u11?os_distro=bullseye&os_name=debian&os_ver
     
     ✗ LOW CVE-2010-4756
       https://scout.docker.com/v/CVE-2010-4756?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ UNSPECIFIED CVE-2026-5358
+      https://scout.docker.com/v/CVE-2026-5358?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
       Affected range : >0        
       Fixed version  : not fixed 
     
@@ -392,6 +407,25 @@ pkg:deb/debian/shadow@1%3A4.8.1-1?os_distro=bullseye&os_name=debian&os_version=1
       Fixed version  : not fixed 
     
 
+   0C     0H     1M     2L  libgcrypt20 1.8.7-6
+pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ MEDIUM CVE-2026-41989
+      https://scout.docker.com/v/CVE-2026-41989?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2024-2236
+      https://scout.docker.com/v/CVE-2024-2236?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+    ✗ LOW CVE-2018-6829
+      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
    0C     0H     1M     0L  libtasn1-6 4.16.0-2+deb11u1
 pkg:deb/debian/libtasn1-6@4.16.0-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
 
@@ -468,20 +502,6 @@ pkg:deb/debian/util-linux@2.36.1-8%2Bdeb11u2?os_distro=bullseye&os_name=debian&o
       Fixed version  : not fixed 
     
 
-   0C     0H     0M     2L  libgcrypt20 1.8.7-6
-pkg:deb/debian/libgcrypt20@1.8.7-6?os_distro=bullseye&os_name=debian&os_version=11
-
-    ✗ LOW CVE-2024-2236
-      https://scout.docker.com/v/CVE-2024-2236?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
-    ✗ LOW CVE-2018-6829
-      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
-
    0C     0H     0M     2L  coreutils 8.32-4
 pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11
 
@@ -496,29 +516,20 @@ pkg:deb/debian/coreutils@8.32-4?os_distro=bullseye&os_name=debian&os_version=11
       Fixed version  : not fixed 
     
 
+   0C     0H     0M     1L  pcre2 10.36-2+deb11u1
+pkg:deb/debian/pcre2@10.36-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2022-41409
+      https://scout.docker.com/v/CVE-2022-41409?s=debian&n=pcre2&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
    0C     0H     0M     1L  gcc-10 10.2.1-6
 pkg:deb/debian/gcc-10@10.2.1-6?os_distro=bullseye&os_name=debian&os_version=11
 
     ✗ LOW CVE-2023-4039
       https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-10&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
-
-   0C     0H     0M     1L  gcc-9 9.3.0-22
-pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11
-
-    ✗ LOW CVE-2023-4039
-      https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-9&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
-      Affected range : >0        
-      Fixed version  : not fixed 
-    
-
-   0C     0H     0M     1L  sed 4.7-1
-pkg:deb/debian/sed@4.7-1?os_distro=bullseye&os_name=debian&os_version=11
-
-    ✗ LOW CVE-2026-5958
-      https://scout.docker.com/v/CVE-2026-5958?s=debian&n=sed&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
       Affected range : >0        
       Fixed version  : not fixed 
     
@@ -532,6 +543,15 @@ pkg:deb/debian/apt@2.2.4?os_distro=bullseye&os_name=debian&os_version=11
       Fixed version  : not fixed 
     
 
+   0C     0H     0M     1L  gcc-9 9.3.0-22
+pkg:deb/debian/gcc-9@9.3.0-22?os_distro=bullseye&os_name=debian&os_version=11
+
+    ✗ LOW CVE-2023-4039
+      https://scout.docker.com/v/CVE-2023-4039?s=debian&n=gcc-9&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+      Affected range : >0        
+      Fixed version  : not fixed 
+    
+
    0C     0H     0M     1L  tar 1.34+dfsg-1+deb11u1
 pkg:deb/debian/tar@1.34%2Bdfsg-1%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
 
@@ -541,11 +561,11 @@ pkg:deb/debian/tar@1.34%2Bdfsg-1%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_
       Fixed version  : not fixed 
     
 
-   0C     0H     0M     1L  pcre2 10.36-2+deb11u1
-pkg:deb/debian/pcre2@10.36-2%2Bdeb11u1?os_distro=bullseye&os_name=debian&os_version=11
+   0C     0H     0M     1L  sed 4.7-1
+pkg:deb/debian/sed@4.7-1?os_distro=bullseye&os_name=debian&os_version=11
 
-    ✗ LOW CVE-2022-41409
-      https://scout.docker.com/v/CVE-2022-41409?s=debian&n=pcre2&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
+    ✗ LOW CVE-2026-5958
+      https://scout.docker.com/v/CVE-2026-5958?s=debian&n=sed&ns=debian&t=deb&osn=debian&osv=11&vr=%3E0
       Affected range : >0        
       Fixed version  : not fixed 
     
@@ -560,10 +580,10 @@ pkg:deb/debian/lz4@1.9.3-2?os_distro=bullseye&os_name=debian&os_version=11
     
 
 
-91 vulnerabilities found in 23 packages
-  CRITICAL     1  
-  HIGH         16 
-  MEDIUM       26 
+95 vulnerabilities found in 23 packages
+  CRITICAL     3  
+  HIGH         18 
+  MEDIUM       27 
   LOW          45 
-  UNSPECIFIED  3  
+  UNSPECIFIED  2  
 
